@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1510176789 "lesson.tex" "lesson.pdf" "lesson" 1510176795
+["pdflatex"] 1510177266 "lesson.tex" "lesson.pdf" "lesson" 1510177277
   "/etc/texmf/web2c/texmf.cnf" 1503313332 1464 a4af512f3aaf20a97ae1601d19d817c4 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -197,18 +197,18 @@
   "elliporb.png" 1510171341 5283 9ceeac8233c353e3c0bd400d81bad9d3 ""
   "hyperbola.png" 1510171341 24717 bab6f73c766dc6a4fc1ad735c71290e2 ""
   "hyperbola3.png" 1510172329 44113 fde6acb9f7469e9980b7533e8048eaf4 ""
-  "lesson.aux" 1510176795 6610 083fdd56ca827f66542b98ad06071641 ""
-  "lesson.nav" 1510176795 2549 e60e8d180c23673949168b7ffd7d3652 ""
-  "lesson.out" 1510176791 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "lesson.tex" 1510172398 12317 f4d04e2d938e6a9e98207fbc6f95438c ""
+  "lesson.aux" 1510177276 6739 268accf6324496b7901a4b4ddaf68d40 ""
+  "lesson.nav" 1510177276 2642 d46b67692f728cb581f8f21abfbdf16b ""
+  "lesson.out" 1510177272 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "lesson.tex" 1510177205 12479 93af6dc9d62ebb5687797523faf49754 ""
   "parabola.eps" 1510171341 82391 23de66c52ac567c4b92105aca45df4ed ""
   "parabola.png" 1510171341 8444 140fce63ee8e84fcc95d59db1a2ff700 ""
   "third.png" 1510171341 2615 f5d56ebc916d07b8936accf32af4fd3a ""
   (generated)
-  "lesson.aux"
-  "lesson.out"
-  "lesson.snm"
   "lesson.toc"
-  "lesson.nav"
+  "lesson.snm"
   "lesson.log"
   "lesson.pdf"
+  "lesson.nav"
+  "lesson.out"
+  "lesson.aux"
