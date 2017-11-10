@@ -1,0 +1,428 @@
+% gm-14-vectors.tex
+
+\documentclass[xcolor=dvipsnames]{beamer}
+
+\usepackage{cancel}
+\renewcommand{\CancelColor}{\color{red}}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{colortbl}
+\usepackage{color}
+\usepackage{alltt}
+\renewcommand*{\thefootnote}{\fnsymbol{footnote}}
+\definecolor{myblue}{rgb}{0.8,0.85,1}
+
+\mode<presentation>
+{
+  \usetheme{Warsaw}
+  \setbeamercovered{transparent}
+}
+% \usecolortheme[named=OliveGreen]{structure}
+\setbeamertemplate{navigation symbols}{} 
+\setbeamertemplate{blocks}[rounded][shadow=true] 
+
+% this is for overlaying math symbols, see https://tex.stackexchange.com/questions/12895/overlay-symbol-with-another
+\def\qeq{\mathrel{%
+    \mathchoice{\QEQ}{\QEQ}{\scriptsize\QEQ}{\tiny\QEQ}%
+}}
+\def\QEQ{{%
+    \setbox0\hbox{$\longrightarrow$}%
+    \rlap{\hbox to \wd0{\hss/\hss}}\box0
+  }}
+
+\newcounter{expls}
+\setcounter{expls}{0}
+\newcommand{\beispiel}[1]{\refstepcounter{expls}\textbf{Example \arabic{expls}: #1.}}
+
+\newcounter{exercise}
+\setcounter{exercise}{0}
+\newcommand{\ubung}[0]{\refstepcounter{exercise}\textbf{Exercise \arabic{exercise}: }}
+
+\newif\ifBCITCourse
+\BCITCoursetrue
+% \BCITCoursefalse
+\newif\ifWhichCourse
+\WhichCoursetrue
+\WhichCoursefalse
+\ifBCITCourse
+\ifWhichCourse
+\newcommand{\CourseName}{Technical Mathematics for Food Technology}
+\newcommand{\CourseNumber}{MATH 1441}
+\newcommand{\CourseInst}{BCIT}
+\else
+\newcommand{\CourseName}{Technical Mathematics for Geomatics}
+\newcommand{\CourseNumber}{MATH 1511}
+\newcommand{\CourseInst}{BCIT}
+\fi
+\else
+\newcommand{\CourseName}{Philosophy and Literature}
+\newcommand{\CourseNumber}{PHIL 375}
+\newcommand{\CourseInst}{UBC}
+\fi
+
+\title{Vectors}
+\subtitle{{\CourseNumber}, BCIT}
+
+\author{\CourseName}
+
+\date{November 13, 2017}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}
+  \frametitle{Vectors}
+A vector is a special type of matrix: it has only one row or only one
+column. Here are two examples of a vector,
+\begin{equation}
+  \label{eq:aesaimae}
+  a=\left(
+    \begin{array}{c}
+      -2  \\
+      3
+    \end{array}\right)\mbox{ and }b=\left(
+    \begin{array}{c}
+      \frac{1}{2} \\
+      7
+    \end{array}\right)
+\end{equation}
+We add them as we would add matrices,
+\begin{equation}
+  \label{eq:baidohdi}
+  a+b=\left(
+    \begin{array}{c}
+      -2 \\
+      3
+    \end{array}\right)+\left(
+    \begin{array}{c}
+      \frac{1}{2} \\
+      7
+    \end{array}\right)=\left(
+    \begin{array}{c}
+      -1.5 \\
+      10
+    \end{array}\right)
+\end{equation}
+  \begin{figure}[h]
+    \includegraphics[scale=1]{./vector_a_plus_b.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Vector Subtraction}
+We define the additive inverse $-a$ of a vector $a$ to be the vector
+whose components are the additive inverses of $a$'s components.
+\begin{equation}
+  \label{eq:yaivujoh}
+  -a=\left(
+    \begin{array}{c}
+      2 \\
+      -3
+    \end{array}\right)
+\end{equation}
+Vector subtraction is defined as follows: $a-b=a+(-b)$. 
+\begin{equation}
+  \label{eq:ahkeizoh}
+  a-b=\left(
+    \begin{array}{c}
+      -2 \\
+      3
+    \end{array}\right)+\left(
+    \begin{array}{c}
+      -\frac{1}{2} \\
+      -7
+    \end{array}\right)=\left(
+    \begin{array}{c}
+      -2.5 \\
+      -4
+    \end{array}\right)
+\end{equation}
+  \begin{figure}[h]
+    \includegraphics[scale=.07]{./vectorminus.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Scalar Multiplication}
+Scalar multiplication is defined for vectors as it was for matrices. A
+real number $C$ and a vector $a$ can be multiplied as follows,
+\begin{equation}
+  \label{eq:oyeizaeb}
+  C\cdot{}a=C\cdot\left(
+    \begin{array}{c}
+      a_{1} \\
+      a_{2}
+    \end{array}\right)=
+\left(
+    \begin{array}{c}
+      C\cdot{}a_{1} \\
+      C\cdot{}a_{2}
+    \end{array}\right)
+\end{equation}
+  \begin{figure}[h]
+    \includegraphics[scale=.5]{./scalarmultiplication.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Vectors and Geometry}
+One way to interpret two-dimensional vectors is to have them describe
+movement in the plane. They have no home in the coordinate system, but
+only describe how to get from one point to another. By convention,
+unless we have reason to do otherwise, we let them start at the origin.
+  \begin{figure}[h]
+    \includegraphics[scale=.5]{./veccoor.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Vectors and Angles}
+Each vector (except the vector whose components are all zero) has an
+angle associated with it, which mathematicians conventionally measure
+counter-clockwise from the $x$-axis. You are welcome to represent the
+angle any way you like as long as it is clear what you mean.
+  \begin{figure}[h]
+    \includegraphics[scale=.5]{./AngleCartesian.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Example}
+Let
+\begin{equation}
+  \label{eq:cieteang}
+  a=\left(
+    \begin{array}{c}
+      -2 \\
+      3
+    \end{array}\right)
+\end{equation}
+Then
+\begin{equation}
+  \label{eq:rujiwath}
+  \tan\alpha'=\frac{3}{-2}\longrightarrow\alpha'=-56.31^{\circ}
+\end{equation}
+This is not the correct angle, however. The correct angle is
+$\alpha=180^{\circ}+\alpha'=123.69^{\circ}$. You can also represent it
+as N$33.69^{\circ}$W. The length of the vector is
+\begin{equation}
+  \label{eq:kootahpa}
+  |a|=\sqrt{(-2)^{2}+3^{2}}\approx{}3.61
+\end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Exercises}
+Calculate the length $|a_{i}|$ and the angle $\alpha_{i}$ for the following
+vectors,
+\begin{equation}
+  \label{eq:aozurohp}
+  a_{1}=\left(
+    \begin{array}{c}
+      7 \\
+      3
+    \end{array}\right)
+\end{equation}
+\begin{equation}
+  \label{eq:atheimah}
+  a_{2}=\left(
+    \begin{array}{c}
+      -6 \\
+      -11
+    \end{array}\right)
+\end{equation}
+\begin{equation}
+  \label{eq:chefoobo}
+  a_{3}=\left(
+    \begin{array}{c}
+      -\pi \\
+      10.5
+    \end{array}\right)
+\end{equation}
+\begin{equation}
+  \label{eq:aevebuaf}
+  a_{4}=\left(
+    \begin{array}{c}
+      \frac{7}{13} \\
+      -\frac{1}{5}
+    \end{array}\right)
+\end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Word Problem I}
+  Jim starts at $P=(-34,-48)$ (units are metres) and walks 60 metres
+  on a bearing of N$38^{\circ}$E. Which vector describes Jim's
+  movement? What are the coordinates of Jim's destination?
+\end{frame}
+
+\begin{frame}
+  \frametitle{Word Problem II}
+  Mr.\ X walks 5km east and 2km north from $A$ to $B$. Ms.\ Y walks
+  6km west and 6km north from $A$ to $C$. What angles could they have
+  chosen to minimize the distance to their destination? What would be
+  that minimal distance? What angle does Ms.\ Y need to choose and how
+  far does she need to walk if she wants to rejoin Mr.\ X, going from
+  $C$ to $B$?
+\end{frame}
+
+\begin{frame}
+  \frametitle{Area: Triangle I}
+  Two linearly independent vectors correspond to a triangle. Two
+  vectors $a$ and $b$ are \alert{linearly dependent} if and only if
+  $a=C\cdot{}b$ for a real number $C$. The cross product $a\times{}b$
+  is the vector which is perpendicular to both $a$ and $b$, follows
+  the right-hand rule, and whose length is the area of the
+  parallelogram generated by $a$ and $b$. Knowing $a$ and $b$, how
+  would you calculate $|a\times{}b|$?
+  \begin{figure}[h]
+    \includegraphics[scale=.08]{./Gyvro.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Area: Triangle II}
+The length of the cross product is
+\begin{equation}
+  \label{eq:xoociegh}
+|a\times{}b|=|a|\cdot{}|b|\cdot\sin\theta
+\end{equation}
+where $\theta$ is the angle between $a$ and $b$.
+  \begin{figure}[h]
+    \includegraphics[scale=.7]{./right_hand_rule_cross_product.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Area: Triangle Exercises}
+Find the area for the triangle generated by 
+\begin{equation}
+  \label{eq:aateeyop}
+a=\left(
+  \begin{array}{c}
+    4 \\
+    3
+  \end{array}\right)\mbox{ and }
+b=\left(
+  \begin{array}{c}
+    7 \\
+    -1
+  \end{array}\right)
+\end{equation}
+Find the area for the parallelogram generated by 
+\begin{equation}
+  \label{eq:deighooz}
+a=\left(
+  \begin{array}{c}
+    -301 \\
+    754
+  \end{array}\right)\mbox{ and }
+b=\left(
+  \begin{array}{c}
+    590 \\
+    -538
+  \end{array}\right)
+\end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Area: Trapezoid}
+Find the formula for the area of a trapezoid.
+  \begin{figure}[h]
+    \includegraphics[scale=.5]{./trapezoid.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Area: Units}
+Two common units of area are the \alert{hectare} (ha) and the \alert{acre}.
+\begin{equation}
+  \label{eq:ohfohdae}
+1\mbox{ha}=100\mbox{m}\cdot{}100\mbox{m}
+\end{equation}
+\begin{equation}
+  \label{eq:eicohrei}
+1\mbox{acre}=43560\mbox{ft}^2
+\end{equation}
+Note that $1$ft$=0.3048$m. Historically, an acre was the amount of
+land one man with one ox could plow in one day.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Area: Acre}
+  \begin{figure}[h]
+    \includegraphics[scale=.45]{./acre.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Area: Units Exercises}
+  \begin{enumerate}
+  \item A plot has an area of 68 acres. Determine the area in
+    hectares.
+  \item A quarter section of land is one quarter of a mile by mile
+    plot. Determine the area of a quarter section.
+    \begin{enumerate}[a]
+    \item Expressed in acres (recall that \mbox{1 mile}$=1760$ yards
+      and \mbox{1 yard}$=3$ feet).
+    \item Expressed in hectares.
+    \end{enumerate}
+  \end{enumerate}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Volume: Pyramids, Cones, and Spheres}
+There is material in a separate \texttt{pdf} file,
+\texttt{volume-of-cone-and-sphere-sans-calculus.pdf}, as well as two
+links provided in D2L.
+
+Note the following formulas:
+\begin{equation}
+  \label{eq:joyakuap}
+  V_{\mbox{sphere}}=\frac{4}{3}r^{3}\pi
+\end{equation}
+\begin{equation}
+  \label{eq:ahquieye}
+  V_{\mbox{cone}}=\frac{1}{3}r^{2}\pi{}h
+\end{equation}
+\begin{equation}
+  \label{eq:kooshogu}
+  V_{\mbox{pyramid}}=\frac{1}{3}abh
+\end{equation}
+Note also the surface of the sphere:
+\begin{equation}
+  \label{eq:aighaing}
+  A_{\mbox{sphere surface}}=4r^{2}\pi
+\end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Volume: Word Problems I}
+  \begin{figure}[h]
+    \includegraphics[scale=1]{./volume1.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Volume: Word Problems II}
+  \begin{figure}[h]
+    \includegraphics[scale=1]{./volume2.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Volume: Word Problems III}
+  \begin{figure}[h]
+    \includegraphics[scale=1]{./volume3.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{End of Lesson}
+Next Lesson: Normal Distribution.
+\end{frame}
+
+\end{document}

@@ -1,0 +1,126 @@
+% gm-termtest-B.tex
+
+\documentclass[11pt]{article}
+\usepackage{alltt}
+\usepackage{enumerate}
+\usepackage{syllogism} 
+\usepackage{october}
+\usepackage[table]{xcolor}
+\pagestyle{empty}
+
+\newif\ifOneOrTwo
+\OneOrTwotrue
+\OneOrTwofalse
+\ifOneOrTwo
+\newcommand{\eibe}{1}
+\newcommand{\ufoj}{r}
+\newcommand{\mair}{\frac{2}{r}-\frac{7}{r+5}=\frac{70}{r^{2}-25}}
+\newcommand{\utit}{To find the distance across a small lake, a surveyor has taken the measurements shown. Find the distance across the lake using this information.}
+\newcommand{\jief}{519}
+\newcommand{\caib}{\sin{}2\vartheta=\tan\vartheta}
+\newcommand{\eizi}{0.8586}
+\newcommand{\afie}{-4.4739}
+\newcommand{\uphe}{-1.2040}
+\newcommand{\kieg}{-2.3039}
+\newcommand{\aequ}{Paris and Vancouver are approximately on the same latitude (49$^{\circ}$N). How far apart are they going along their circle of latitude? Paris is at $2.5^{\circ}$E longitude and Vancouver at $123^{\circ}$W.}
+% \newcommand{\aiza}{}
+% \newcommand{\ajoo}{}
+% \newcommand{\icoo}{}
+% \newcommand{\phae}{}
+% \newcommand{\usha}{}
+% \newcommand{\oaga}{}
+% \newcommand{\cait}{}
+% \newcommand{\viob}{}
+% \newcommand{\mare}{}
+% \newcommand{\ieje}{}
+% \newcommand{\opie}{}
+% \newcommand{\geik}{}
+% \newcommand{\ahna}{}
+% \newcommand{\xohv}{}
+% \newcommand{\dahj}{}
+% \newcommand{\eexe}{}
+% \newcommand{\etah}{}
+% \newcommand{\ieja}{}
+% \newcommand{\vail}{}
+% \newcommand{\sien}{}
+% \newcommand{\ieti}{}
+% \newcommand{\ooga}{}
+% \newcommand{\oopu}{}
+
+\else
+\newcommand{\eibe}{2}
+\newcommand{\ufoj}{p}
+\newcommand{\mair}{\frac{6}{p}-\frac{8}{p+2}=\frac{32}{p^{2}-4}}
+\newcommand{\utit}{A 125-ft tower is located on the side of a mountain that is inclined 32$^{\circ}$ to the horizontal. A guy wire is to be attached to the top of the tower and anchored at a point 55 feet downhill from the base of the tower. Find the shortest length of wire needed.}
+\newcommand{\jief}{520}
+\newcommand{\caib}{\sin{}2\vartheta\csc\vartheta=2}
+\newcommand{\eizi}{2.9411}
+\newcommand{\afie}{-0.8750}
+\newcommand{\uphe}{-1.5945}
+\newcommand{\kieg}{-4.2953}
+\newcommand{\aequ}{Kaliningrad in Russia (birth place of the philosopher Immanuel Kant) and Belfast in Northern Ireland are on the same latitude (54$^{\circ}$N). How far apart are they going along their circle of latitude? Kaliningrad is at $20.5^{\circ}$E longitude and Belfast at $6^{\circ}$W.}
+% \newcommand{\aiza}{}
+% \newcommand{\ajoo}{}
+% \newcommand{\icoo}{}
+% \newcommand{\phae}{}
+% \newcommand{\usha}{}
+% \newcommand{\oaga}{}
+% \newcommand{\cait}{}
+% \newcommand{\viob}{}
+% \newcommand{\mare}{}
+% \newcommand{\ieje}{}
+% \newcommand{\opie}{}
+% \newcommand{\geik}{}
+% \newcommand{\ahna}{}
+% \newcommand{\xohv}{}
+% \newcommand{\dahj}{}
+% \newcommand{\eexe}{}
+% \newcommand{\etah}{}
+% \newcommand{\ieja}{}
+% \newcommand{\vail}{}
+% \newcommand{\sien}{}
+% \newcommand{\ieti}{}
+% \newcommand{\ooga}{}
+% \newcommand{\oopu}{}
+\fi
+
+\newcounter{aufg}
+\setcounter{aufg}{0}
+\newcommand{\aufgabe}[1]{\refstepcounter{aufg}\textbf{(\arabic{aufg})}
+[#1 points]}
+
+\begin{document}
+
+\textbf{Term Test B version {\eibe}}
+
+\aufgabe{5} Solve the following equation for ${\ufoj}$.
+
+\begin{equation}
+  \label{eq:bahpiubo}
+  {\mair}\notag
+\end{equation}
+
+\aufgabe{6} {\utit}
+
+\begin{figure}[h]
+  \includegraphics[scale=1.3]{./stewart\jief.png}
+\end{figure}
+
+\aufgabe{6} Solve the following equation for angles between $360^{\circ}$ and $720^{\circ}$.
+\begin{equation}
+    \label{eq:leigieri}
+{\caib}\notag
+\end{equation}
+
+\aufgabe{5} What is the whole circle bearing from point $A=({\eizi},{\afie})$ to $B=({\uphe},{\kieg})$?
+
+\aufgabe{5} {\aequ}
+
+\aufgabe{3} Solve the following equation in $\mathbb{R}$. (This question is intended for students keen to achieve an excellent grade. Even though it is a challenging question, it is worth only 10\% of the total grade.)
+\begin{equation}
+    \label{eq:yeiveroo}
+2\cot{}2\vartheta=\csc{}\vartheta\notag
+\end{equation}
+
+\end{document}
+
