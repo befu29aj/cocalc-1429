@@ -270,7 +270,65 @@ vectors,
 \end{frame}
 
 \begin{frame}
-  \frametitle{Area: Triangle I}
+  \frametitle{Area: Triangle}
+  Consider the following triangle:
+  \begin{figure}[h]
+    \includegraphics[scale=.5]{./areatri.png}
+  \end{figure}
+  Start with the traditional formula for the area of this triangle,
+  \begin{equation}
+    \label{eq:oquehota}
+    A=\frac{1}{2}bh
+  \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Area: Triangle}
+  \begin{figure}[h]
+    \includegraphics[scale=.5]{./areatri.png}
+  \end{figure}
+  Then look at the smaller triangle to the left. Because the height is
+  drawn perpendicular to the base, the sides and height form a right
+  triangle. The acute angle $\theta$ has a sine equivalent to the
+  following:
+  \begin{equation}
+    \label{eq:ayooshoh}
+    \sin\theta=\frac{\mbox{opposite}}{\mbox{hypotenuse}}=\frac{h}{a}
+  \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Area: Triangle}
+  \begin{figure}[h]
+    \includegraphics[scale=.5]{./areatri.png}
+  \end{figure}
+If you solve that equation for $h$ by multiplying each side by $a$,
+you get
+\begin{equation}
+  \label{eq:gohgaese}
+  \sin\theta=\frac{h}{a}
+\end{equation}
+\begin{equation}
+  \label{eq:sheichuc}
+  a\sin\theta=h
+\end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Area: Triangle}
+  \begin{figure}[h]
+    \includegraphics[scale=.5]{./areatri.png}
+  \end{figure}
+  Replace the $h$ in the traditional formula with its equivalent from
+  the preceding equation, and you get
+  \begin{equation}
+    \label{eq:eakohcel}
+    A=\frac{1}{2}bh=\frac{1}{2}b(a\sin\theta)=\frac{1}{2}ab\sin\theta
+  \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Area: Triangle}
   Two linearly independent vectors correspond to a triangle. Two
   vectors $a$ and $b$ are \alert{linearly dependent} if and only if
   $a=C\cdot{}b$ for a real number $C$. The cross product $a\times{}b$
@@ -284,7 +342,7 @@ vectors,
 \end{frame}
 
 \begin{frame}
-  \frametitle{Area: Triangle II}
+  \frametitle{Area: Triangle}
 The length of the cross product is
 \begin{equation}
   \label{eq:xoociegh}
