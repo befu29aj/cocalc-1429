@@ -60,6 +60,15 @@
     "eq:ohquaiva"
     "eq:poikeeng"
     "eq:haesiiro"
+    "eq:ceedarai"
+    "eq:ohchahph"
+    "eq:eiwaegeb"
+    "eq:eithuogh"
+    "eq:aehohthu"
+    "eq:iewugeth"
+    "eq:tiphaike"
+    "eq:guoquoht"
+    "eq:moogahve"
     "eq:quahphia"
     "eq:iemahbec"))
  :latex)
