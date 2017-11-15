@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.23)  15 NOV 2017 16:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.23)  15 NOV 2017 19:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**lesson.tex
-(./lesson.tex
+**gm-14-vectors.tex
+(./gm-14-vectors.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
@@ -758,8 +758,8 @@ Package: beamercolorthemewhale 2010/06/17  (rcs-revision d02a7cf4d8ae)
 ))
 \c@expls=\count154
 \c@exercise=\count155
- (./lesson.aux)
-\openout1 = `lesson.aux'.
+ (./gm-14-vectors.aux)
+\openout1 = `gm-14-vectors.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
 LaTeX Font Info:    ... okay on input line 70.
@@ -854,9 +854,9 @@ LaTeX Info: Redefining \ref on input line 70.
 LaTeX Info: Redefining \pageref on input line 70.
 LaTeX Info: Redefining \nameref on input line 70.
 
-(./lesson.out) (./lesson.out)
+(./gm-14-vectors.out) (./gm-14-vectors.out)
 \@outlinefile=\write5
-\openout5 = `lesson.out'.
+\openout5 = `gm-14-vectors.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 70.
@@ -936,7 +936,8 @@ orem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 LaTeX Info: Redefining \includegraphics on input line 70.
- (./lesson.nav)
+
+(./gm-14-vectors.nav)
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 (Font)              size <5> substituted on input line 74.
@@ -944,34 +945,70 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for U+msa on input line 104.
+LaTeX Font Info:    Try loading font information for U+msa on input line 112.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 104.
+LaTeX Font Info:    Try loading font information for U+msb on input line 112.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 104.
+line 112.
 
 (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-[2
+<./vector_a_plus_b.png, id=33, 239.39438pt x 68.6565pt>
+File: ./vector_a_plus_b.png Graphic file (type png)
 
-] [3
+<use ./vector_a_plus_b.png>
+Package pdftex.def Info: ./vector_a_plus_b.png used on input line 112.
+(pdftex.def)             Requested size: 239.39378pt x 68.65631pt.
+ [2
 
-] [4
+ <./vector_a_plus_b.png>]
+<./vectorminus.png, id=50, 2007.5pt x 1452.42625pt>
+File: ./vectorminus.png Graphic file (type png)
+ <use ./vectorminus.png>
+Package pdftex.def Info: ./vectorminus.png used on input line 146.
+(pdftex.def)             Requested size: 140.53935pt x 101.68022pt.
 
-] [5
+[3
 
-] [6
+ <./vectorminus.png>]
+<./scalarmultiplication.png, id=60, 365.365pt x 217.81375pt>
+File: ./scalarmultiplication.png Graphic file (type png)
 
-] [7
+<use ./scalarmultiplication.png>
+Package pdftex.def Info: ./scalarmultiplication.png used on input line 168.
+(pdftex.def)             Requested size: 182.68205pt x 108.9066pt.
+ [4
+
+ <./scalarmultiplication.png>]
+<./veccoor.png, id=69, 410.53375pt x 290.08376pt>
+File: ./veccoor.png Graphic file (type png)
+ <use ./veccoor.png>
+Package pdftex.def Info: ./veccoor.png used on input line 179.
+(pdftex.def)             Requested size: 205.26637pt x 145.04152pt.
+ [5
+
+ <./veccoor.png>] <./AngleCartesian.png, id=77, 331.2375pt x 331.2375pt>
+File: ./AngleCartesian.png Graphic file (type png)
+
+<use ./AngleCartesian.png>
+Package pdftex.def Info: ./AngleCartesian.png used on input line 190.
+(pdftex.def)             Requested size: 165.61833pt x 165.61833pt.
+
+Overfull \vbox (12.07596pt too high) detected at line 190
+ []
+
+[6
+
+ <./AngleCartesian.png>] [7
 
 ] [8
 
@@ -979,51 +1016,144 @@ thkerncmss.
 
 ] [10
 
-] [11
+]
+<./areatri.png, id=119, 584.1825pt x 248.93pt>
+File: ./areatri.png Graphic file (type png)
+ <use ./areatri.png>
+Package pdftex.def Info: ./areatri.png used on input line 283.
+(pdftex.def)             Requested size: 292.09053pt x 124.46469pt.
+ [11
 
-] [12
+ <./areatri.png>]
+File: ./areatri.png Graphic file (type png)
+ <use ./areatri.png>
+Package pdftex.def Info: ./areatri.png used on input line 298.
+(pdftex.def)             Requested size: 292.09053pt x 124.46469pt.
+ [12
 
-] [13
+]
+File: ./areatri.png Graphic file (type png)
+ <use ./areatri.png>
+Package pdftex.def Info: ./areatri.png used on input line 315.
+(pdftex.def)             Requested size: 292.09053pt x 124.46469pt.
+ [13
 
-] [14
+]
+File: ./areatri.png Graphic file (type png)
+ <use ./areatri.png>
+Package pdftex.def Info: ./areatri.png used on input line 328.
+(pdftex.def)             Requested size: 292.09053pt x 124.46469pt.
 
-] [15
+[14
 
-] [16
+] <./Gyvro.png, id=150, 2007.5pt x 1568.86125pt>
+File: ./Gyvro.png Graphic file (type png)
+ <use ./Gyvro.png>
+Package pdftex.def Info: ./Gyvro.png used on input line 342.
+(pdftex.def)             Requested size: 160.60327pt x 125.51146pt.
+ [15
+
+ <./Gyvro.png>]
+<./right_hand_rule_cross_product.png, id=158, 220.825pt x 199.74625pt>
+File: ./right_hand_rule_cross_product.png Graphic file (type png)
+
+<use ./right_hand_rule_cross_product.png>
+Package pdftex.def Info: ./right_hand_rule_cross_product.png used on input line
+ 355.
+(pdftex.def)             Requested size: 154.57643pt x 139.82141pt.
+ [16
+
+ <./right_hand_rule_cross_product.png>] [17
+
+] <./trapezoid.png, id=176, 567.11874pt x 349.305pt>
+File: ./trapezoid.png Graphic file (type png)
+
+<use ./trapezoid.png>
+Package pdftex.def Info: ./trapezoid.png used on input line 395.
+(pdftex.def)             Requested size: 283.55867pt x 174.65207pt.
+ [18
+
+ <./trapezoid.png>] [19
+
+]
+<./vector-resultant-01.png, id=193, 346.896pt x 186.4566pt>
+File: ./vector-resultant-01.png Graphic file (type png)
+
+<use ./vector-resultant-01.png>
+Package pdftex.def Info: ./vector-resultant-01.png used on input line 422.
+(pdftex.def)             Requested size: 190.79338pt x 102.55144pt.
+ [20
+
+ <./vector-resultant-01.png>]
+<./acre.png, id=201, 607.26875pt x 490.83376pt>
+File: ./acre.png Graphic file (type png)
+ <use ./acre.png>
+Package pdftex.def Info: ./acre.png used on input line 429.
+(pdftex.def)             Requested size: 273.26842pt x 220.87314pt.
+ [21
+
+ <./acre.png>] [22
+
+] [23
+
+] <./volume1.png, id=228, 264.99pt x 141.8901pt>
+File: ./volume1.png Graphic file (type png)
+
+<use ./volume1.png>
+Package pdftex.def Info: ./volume1.png used on input line 477.
+(pdftex.def)             Requested size: 264.98935pt x 141.88974pt.
+ [24
+
+ <./volume1.png (PNG copy)>]
+<./volume2.png, id=235, 267.6399pt x 204.0423pt>
+File: ./volume2.png Graphic file (type png)
+ <use ./volume2.png>
+Package pdftex.def Info: ./volume2.png used on input line 484.
+(pdftex.def)             Requested size: 267.63924pt x 204.04178pt.
+ [25
+
+ <./volume2.png (PNG copy)>] <./volume3.png, id=243, 264.99pt x 141.8901pt>
+File: ./volume3.png Graphic file (type png)
+
+<use ./volume3.png>
+Package pdftex.def Info: ./volume3.png used on input line 491.
+(pdftex.def)             Requested size: 264.98935pt x 141.88974pt.
+ [26
+
+ <./volume3.png (PNG copy)>] [27
 
 ]
 \tf@nav=\write6
-\openout6 = `lesson.nav'.
+\openout6 = `gm-14-vectors.nav'.
 
 \tf@toc=\write7
-\openout7 = `lesson.toc'.
+\openout7 = `gm-14-vectors.toc'.
 
 \tf@snm=\write8
-\openout8 = `lesson.snm'.
+\openout8 = `gm-14-vectors.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 302.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 302.
-
-(./lesson.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 302.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 302.
-Package rerunfilecheck Info: File `lesson.out' has not changed.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 498.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 498.
+ (./gm-14-vectors.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 498.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 498.
+Package rerunfilecheck Info: File `gm-14-vectors.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 302.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 498.
  ) 
 Here is how much of TeX's memory you used:
- 17184 strings out of 493029
- 329659 string characters out of 6136234
- 402894 words of memory out of 5000000
- 20236 multiletter control sequences out of 15000+600000
- 10390 words of font info for 38 fonts, out of 8000000 for 9000
+ 17307 strings out of 493029
+ 331773 string characters out of 6136234
+ 400714 words of memory out of 5000000
+ 20326 multiletter control sequences out of 15000+600000
+ 14052 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,16n,68p,386b,670s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,16n,68p,393b,602s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texl
@@ -1032,11 +1162,12 @@ xmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsy8.pfb>
-Output written on lesson.pdf (16 pages, 106276 bytes).
+lic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmtt10.pfb>
+Output written on gm-14-vectors.pdf (27 pages, 3809209 bytes).
 PDF statistics:
- 218 PDF objects out of 1000 (max. 8388607)
- 174 compressed objects within 2 object streams
- 66 named destinations out of 1000 (max. 500000)
- 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 308 PDF objects out of 1000 (max. 8388607)
+ 229 compressed objects within 3 object streams
+ 81 named destinations out of 1000 (max. 500000)
+ 149 words of extra memory for PDF output out of 10000 (max. 10000000)
 
