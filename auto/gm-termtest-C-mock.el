@@ -32,7 +32,6 @@
     "eq:eesicaet"
     "eq:fixahfee"
     "eq:iesiwoox"
-    "eq:ezaishoo"
     "eq:eemengaj"
     "eq:faeyeije"
     "eq:ochedoxi"
@@ -70,6 +69,7 @@
     "eq:guoquoht"
     "eq:moogahve"
     "eq:quahphia"
-    "eq:iemahbec"))
+    "eq:iemahbec"
+    "eq:xufuacoo"))
  :latex)
 
