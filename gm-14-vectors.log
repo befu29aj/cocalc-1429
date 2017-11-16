@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.23)  15 NOV 2017 19:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.23)  16 NOV 2017 20:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1014,24 +1014,29 @@ Overfull \vbox (12.07596pt too high) detected at line 190
 
 ] [9
 
-] [10
-
 ]
-<./areatri.png, id=119, 584.1825pt x 248.93pt>
-File: ./areatri.png Graphic file (type png)
- <use ./areatri.png>
-Package pdftex.def Info: ./areatri.png used on input line 283.
-(pdftex.def)             Requested size: 292.09053pt x 124.46469pt.
- [11
+<./vectora.png, id=114, 841.1425pt x 527.9725pt>
+File: ./vectora.png Graphic file (type png)
+ <use ./vectora.png>
+Package pdftex.def Info: ./vectora.png used on input line 277.
+(pdftex.def)             Requested size: 252.3447pt x 158.39296pt.
 
- <./areatri.png>]
+Overfull \vbox (30.57976pt too high) detected at line 277
+ []
+
+[10
+
+ <./vectora.png>] [11
+
+] <./areatri.png, id=128, 584.1825pt x 248.93pt>
 File: ./areatri.png Graphic file (type png)
- <use ./areatri.png>
-Package pdftex.def Info: ./areatri.png used on input line 298.
+
+<use ./areatri.png>
+Package pdftex.def Info: ./areatri.png used on input line 300.
 (pdftex.def)             Requested size: 292.09053pt x 124.46469pt.
  [12
 
-]
+ <./areatri.png>]
 File: ./areatri.png Graphic file (type png)
  <use ./areatri.png>
 Package pdftex.def Info: ./areatri.png used on input line 315.
@@ -1040,87 +1045,120 @@ Package pdftex.def Info: ./areatri.png used on input line 315.
 
 ]
 File: ./areatri.png Graphic file (type png)
- <use ./areatri.png>
-Package pdftex.def Info: ./areatri.png used on input line 328.
+
+<use ./areatri.png>
+Package pdftex.def Info: ./areatri.png used on input line 332.
 (pdftex.def)             Requested size: 292.09053pt x 124.46469pt.
+ [14
 
-[14
-
-] <./Gyvro.png, id=150, 2007.5pt x 1568.86125pt>
-File: ./Gyvro.png Graphic file (type png)
- <use ./Gyvro.png>
-Package pdftex.def Info: ./Gyvro.png used on input line 342.
-(pdftex.def)             Requested size: 160.60327pt x 125.51146pt.
+]
+File: ./areatri.png Graphic file (type png)
+ <use ./areatri.png>
+Package pdftex.def Info: ./areatri.png used on input line 345.
+(pdftex.def)             Requested size: 292.09053pt x 124.46469pt.
  [15
 
- <./Gyvro.png>]
-<./right_hand_rule_cross_product.png, id=158, 220.825pt x 199.74625pt>
+]
+<./Gyvro.png, id=160, 2007.5pt x 1568.86125pt>
+File: ./Gyvro.png Graphic file (type png)
+ <use ./Gyvro.png>
+Package pdftex.def Info: ./Gyvro.png used on input line 359.
+(pdftex.def)             Requested size: 160.60327pt x 125.51146pt.
+ [16
+
+ <./Gyvro.png>] <./right_hand_rule_cross_product.png, id=168, 220.825pt x 199.7
+4625pt>
 File: ./right_hand_rule_cross_product.png Graphic file (type png)
 
 <use ./right_hand_rule_cross_product.png>
 Package pdftex.def Info: ./right_hand_rule_cross_product.png used on input line
- 355.
+ 372.
 (pdftex.def)             Requested size: 154.57643pt x 139.82141pt.
- [16
+ [17
 
- <./right_hand_rule_cross_product.png>] [17
+ <./right_hand_rule_cross_product.png>] [18
 
-] <./trapezoid.png, id=176, 567.11874pt x 349.305pt>
+] <./trapezoid.png, id=185, 567.11874pt x 349.305pt>
 File: ./trapezoid.png Graphic file (type png)
 
 <use ./trapezoid.png>
-Package pdftex.def Info: ./trapezoid.png used on input line 395.
+Package pdftex.def Info: ./trapezoid.png used on input line 412.
 (pdftex.def)             Requested size: 283.55867pt x 174.65207pt.
- [18
+ [19
 
- <./trapezoid.png>] [19
+ <./trapezoid.png>] [20
 
 ]
-<./vector-resultant-01.png, id=193, 346.896pt x 186.4566pt>
+<./vector-resultant-01.png, id=202, 346.896pt x 186.4566pt>
 File: ./vector-resultant-01.png Graphic file (type png)
 
 <use ./vector-resultant-01.png>
-Package pdftex.def Info: ./vector-resultant-01.png used on input line 422.
+Package pdftex.def Info: ./vector-resultant-01.png used on input line 439.
 (pdftex.def)             Requested size: 190.79338pt x 102.55144pt.
- [20
-
- <./vector-resultant-01.png>]
-<./acre.png, id=201, 607.26875pt x 490.83376pt>
-File: ./acre.png Graphic file (type png)
- <use ./acre.png>
-Package pdftex.def Info: ./acre.png used on input line 429.
-(pdftex.def)             Requested size: 273.26842pt x 220.87314pt.
  [21
 
- <./acre.png>] [22
+ <./vector-resultant-01.png>]
+<./tri-24.png, id=210, 127.1952pt x 87.4467pt>
+File: ./tri-24.png Graphic file (type png)
+ <use ./tri-24.png>
+Package pdftex.def Info: ./tri-24.png used on input line 450.
+(pdftex.def)             Requested size: 127.19489pt x 87.44647pt.
+ [22
 
-] [23
+ <./tri-24.png>] <./tri-17.png, id=218, 201.6333pt x 72.27pt>
+File: ./tri-17.png Graphic file (type png)
+ <use ./tri-17.png>
+Package pdftex.def Info: ./tri-17.png used on input line 464.
+(pdftex.def)             Requested size: 201.6328pt x 72.2698pt.
+ [23
 
-] <./volume1.png, id=228, 264.99pt x 141.8901pt>
-File: ./volume1.png Graphic file (type png)
+ <./tri-17.png>] <./acre.png, id=226, 607.26875pt x 490.83376pt>
+File: ./acre.png Graphic file (type png)
+ <use ./acre.png>
+Package pdftex.def Info: ./acre.png used on input line 471.
+(pdftex.def)             Requested size: 273.26842pt x 220.87314pt.
 
-<use ./volume1.png>
-Package pdftex.def Info: ./volume1.png used on input line 477.
-(pdftex.def)             Requested size: 264.98935pt x 141.88974pt.
- [24
+[24
 
- <./volume1.png (PNG copy)>]
-<./volume2.png, id=235, 267.6399pt x 204.0423pt>
-File: ./volume2.png Graphic file (type png)
- <use ./volume2.png>
-Package pdftex.def Info: ./volume2.png used on input line 484.
-(pdftex.def)             Requested size: 267.63924pt x 204.04178pt.
- [25
+ <./acre.png>] [25
 
- <./volume2.png (PNG copy)>] <./volume3.png, id=243, 264.99pt x 141.8901pt>
-File: ./volume3.png Graphic file (type png)
+] <./frustum.png, id=243, 358.33875pt x 317.185pt>
+File: ./frustum.png Graphic file (type png)
 
-<use ./volume3.png>
-Package pdftex.def Info: ./volume3.png used on input line 491.
-(pdftex.def)             Requested size: 264.98935pt x 141.88974pt.
+<use ./frustum.png>
+Package pdftex.def Info: ./frustum.png used on input line 500.
+(pdftex.def)             Requested size: 179.16893pt x 158.5921pt.
  [26
 
- <./volume3.png (PNG copy)>] [27
+ <./frustum.png>] [27
+
+] [28
+
+]
+<./volume1.png, id=270, 264.99pt x 141.8901pt>
+File: ./volume1.png Graphic file (type png)
+ <use ./volume1.png>
+Package pdftex.def Info: ./volume1.png used on input line 551.
+(pdftex.def)             Requested size: 264.98935pt x 141.88974pt.
+ [29
+
+ <./volume1.png (PNG copy)>] <./volume2.png, id=277, 267.6399pt x 204.0423pt>
+File: ./volume2.png Graphic file (type png)
+
+<use ./volume2.png>
+Package pdftex.def Info: ./volume2.png used on input line 558.
+(pdftex.def)             Requested size: 267.63924pt x 204.04178pt.
+ [30
+
+ <./volume2.png (PNG copy)>]
+<./volume3.png, id=284, 264.99pt x 141.8901pt>
+File: ./volume3.png Graphic file (type png)
+ <use ./volume3.png>
+Package pdftex.def Info: ./volume3.png used on input line 565.
+(pdftex.def)             Requested size: 264.98935pt x 141.88974pt.
+ [31
+
+ <./volume3.png (PNG copy)>] [32
 
 ]
 \tf@nav=\write6
@@ -1132,11 +1170,11 @@ Package pdftex.def Info: ./volume3.png used on input line 491.
 \tf@snm=\write8
 \openout8 = `gm-14-vectors.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 498.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 498.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 572.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 572.
  (./gm-14-vectors.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 498.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 498.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 572.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 572.
 Package rerunfilecheck Info: File `gm-14-vectors.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1144,14 +1182,14 @@ Package rerunfilecheck Info: File `gm-14-vectors.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 498.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 572.
  ) 
 Here is how much of TeX's memory you used:
- 17307 strings out of 493029
- 331773 string characters out of 6136234
- 400714 words of memory out of 5000000
- 20326 multiletter control sequences out of 15000+600000
- 14052 words of font info for 52 fonts, out of 8000000 for 9000
+ 17357 strings out of 493029
+ 332389 string characters out of 6136234
+ 400814 words of memory out of 5000000
+ 20357 multiletter control sequences out of 15000+600000
+ 14346 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,16n,68p,393b,602s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
@@ -1159,15 +1197,16 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmtt10.pfb>
-Output written on gm-14-vectors.pdf (27 pages, 3809209 bytes).
+t/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmtt10.pfb>
+Output written on gm-14-vectors.pdf (32 pages, 3970421 bytes).
 PDF statistics:
- 308 PDF objects out of 1000 (max. 8388607)
- 229 compressed objects within 3 object streams
- 81 named destinations out of 1000 (max. 500000)
- 149 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 355 PDF objects out of 1000 (max. 8388607)
+ 264 compressed objects within 3 object streams
+ 95 named destinations out of 1000 (max. 500000)
+ 169 words of extra memory for PDF output out of 10000 (max. 10000000)
 

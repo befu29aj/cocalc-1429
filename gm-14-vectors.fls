@@ -331,6 +331,10 @@ INPUT ./veccoor.png
 INPUT ./AngleCartesian.png
 INPUT ./AngleCartesian.png
 INPUT ./AngleCartesian.png
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
+INPUT ./vectora.png
+INPUT ./vectora.png
+INPUT ./vectora.png
 INPUT ./areatri.png
 INPUT ./areatri.png
 INPUT ./areatri.png
@@ -352,6 +356,12 @@ INPUT ./trapezoid.png
 INPUT ./vector-resultant-01.png
 INPUT ./vector-resultant-01.png
 INPUT ./vector-resultant-01.png
+INPUT ./tri-24.png
+INPUT ./tri-24.png
+INPUT ./tri-24.png
+INPUT ./tri-17.png
+INPUT ./tri-17.png
+INPUT ./tri-17.png
 INPUT ./acre.png
 INPUT ./acre.png
 INPUT ./acre.png
@@ -368,6 +378,9 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi8.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi8.tfm
+INPUT ./frustum.png
+INPUT ./frustum.png
+INPUT ./frustum.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT ./volume1.png
 INPUT ./volume1.png
@@ -389,6 +402,7 @@ INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
