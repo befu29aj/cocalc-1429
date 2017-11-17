@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.23)  17 NOV 2017 17:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.23)  17 NOV 2017 18:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1124,38 +1124,42 @@ Package pdftex.def Info: ./acre.png used on input line 493.
 
  <./acre.png>] [26
 
-] <./frustum.png, id=251, 358.33875pt x 317.185pt>
-File: ./frustum.png Graphic file (type png)
+] <./frustum.pdf, id=251, 458.71375pt x 601.24625pt>
+File: ./frustum.pdf Graphic file (type pdf)
 
-<use ./frustum.png>
-Package pdftex.def Info: ./frustum.png used on input line 522.
-(pdftex.def)             Requested size: 179.16893pt x 158.5921pt.
- [27
+<use ./frustum.pdf>
+Package pdftex.def Info: ./frustum.pdf used on input line 522.
+(pdftex.def)             Requested size: 183.48224pt x 240.49423pt.
 
- <./frustum.png>] [28
+Overfull \vbox (69.75185pt too high) detected at line 522
+ []
+
+[27
+
+ <./frustum.pdf>] [28
 
 ] [29
 
-]
-<./volume1.png, id=278, 264.99pt x 141.8901pt>
+] <./volume1.png, id=284, 264.99pt x 141.8901pt>
 File: ./volume1.png Graphic file (type png)
- <use ./volume1.png>
+
+<use ./volume1.png>
 Package pdftex.def Info: ./volume1.png used on input line 573.
 (pdftex.def)             Requested size: 264.98935pt x 141.88974pt.
  [30
 
- <./volume1.png (PNG copy)>] <./volume2.png, id=285, 267.6399pt x 204.0423pt>
+ <./volume1.png (PNG copy)>]
+<./volume2.png, id=291, 267.6399pt x 204.0423pt>
 File: ./volume2.png Graphic file (type png)
-
-<use ./volume2.png>
+ <use ./volume2.png>
 Package pdftex.def Info: ./volume2.png used on input line 580.
 (pdftex.def)             Requested size: 267.63924pt x 204.04178pt.
  [31
 
- <./volume2.png (PNG copy)>]
-<./volume3.png, id=293, 264.99pt x 141.8901pt>
+ <./volume2.png (PNG copy)>] <./volume3.png, id=299, 264.99pt x 141.8901pt>
 File: ./volume3.png Graphic file (type png)
- <use ./volume3.png>
+
+<use ./volume3.png>
 Package pdftex.def Info: ./volume3.png used on input line 587.
 (pdftex.def)             Requested size: 264.98935pt x 141.88974pt.
  [32
@@ -1196,19 +1200,20 @@ Here is how much of TeX's memory you used:
  56i,16n,68p,393b,602s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmtt10.pfb>
-Output written on gm-14-vectors.pdf (33 pages, 3973846 bytes).
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mtt10.pfb>
+Output written on gm-14-vectors.pdf (33 pages, 3895918 bytes).
 PDF statistics:
- 364 PDF objects out of 1000 (max. 8388607)
- 272 compressed objects within 3 object streams
+ 371 PDF objects out of 1000 (max. 8388607)
+ 278 compressed objects within 3 object streams
  99 named destinations out of 1000 (max. 500000)
  169 words of extra memory for PDF output out of 10000 (max. 10000000)
 
