@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1510862550 "gm-14-vectors.tex" "gm-14-vectors.pdf" "gm-14-vectors" 1510862552
+["pdflatex"] 1510938258 "gm-14-vectors.tex" "gm-14-vectors.pdf" "gm-14-vectors" 1510938260
   "/etc/texmf/web2c/texmf.cnf" 1503313332 1464 a4af512f3aaf20a97ae1601d19d817c4 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -198,10 +198,10 @@
   "acre.png" 1510343224 218893 96a206b53dcbb3ccacc4f67fd08de2c8 ""
   "areatri.png" 1510769315 27131 0e7a4261f748684e67aed24e7cb3481d ""
   "frustum.png" 1510777242 55846 ea8883e424fa3f6abc7ef4899da9b62c ""
-  "gm-14-vectors.aux" 1510862552 8081 e29c039bde2d2614327f6fba68c69a4c ""
-  "gm-14-vectors.nav" 1510862552 3194 cdc35f428d80baaff4e90ca237ffaba3 ""
-  "gm-14-vectors.out" 1510862550 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "gm-14-vectors.tex" 1510862545 15160 a854df435d8009d199cc834471916518 ""
+  "gm-14-vectors.aux" 1510938260 8406 2c473bc67ad6005fb7a2120d5aaee2e9 ""
+  "gm-14-vectors.nav" 1510938260 3287 b8c268c9d45250ebefbedd71cd50e2d7 ""
+  "gm-14-vectors.out" 1510938258 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "gm-14-vectors.tex" 1510938253 15981 2f8c63aacf0d4197e5856943e4a9cfaa ""
   "right_hand_rule_cross_product.png" 1510343225 13913 f8170e45a467d7d025f2b431f49e1e09 ""
   "scalarmultiplication.png" 1510343225 4297 f8dcbae5a5301908d18a530fe16355cf ""
   "trapezoid.png" 1510343225 8335 46708b0498b1ed934ef0996a8c34f45d ""
@@ -216,10 +216,10 @@
   "volume2.png" 1510343225 1309097 a779f1671833ebc674e6db81293b6398 ""
   "volume3.png" 1510343225 877202 fec2228495bbf1958a03c87d8451675c ""
   (generated)
-  "gm-14-vectors.out"
-  "gm-14-vectors.pdf"
+  "gm-14-vectors.log"
   "gm-14-vectors.snm"
   "gm-14-vectors.aux"
   "gm-14-vectors.toc"
-  "gm-14-vectors.log"
+  "gm-14-vectors.out"
+  "gm-14-vectors.pdf"
   "gm-14-vectors.nav"
