@@ -2,7 +2,6 @@
 
 \documentclass[xcolor=dvipsnames]{beamer}
 
-\usepackage{tikz}
 \usepackage{cancel}
 \renewcommand{\CancelColor}{\color{red}}
 \usepackage{graphicx}

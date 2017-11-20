@@ -7,6 +7,7 @@
     "latex2e"
     "beamer"
     "beamer10"
+    "tikz"
     "cancel"
     "graphicx"
     "wrapfig"
