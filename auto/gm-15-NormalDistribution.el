@@ -27,10 +27,17 @@
     "eq:eijietha"
     "eq:eepuneeb"
     "eq:iedohdah"
+    "eq:oolojuth"
     "eq:aitoolah"
     "eq:uotoogoo"
     "eq:igutheib"
-    "eq:oolojuth")
+    "eq:deapheph"
+    "eq:taedaiga"
+    "eq:ahraefis"
+    "eq:aequaixe"
+    "eq:oocohdau"
+    "eq:aethohph"
+    "eq:aedecaba")
    (LaTeX-add-counters
     "expls"
     "exercise"))
