@@ -5,6 +5,7 @@
                      '(("article" "11pt")))
    (TeX-add-to-alist 'LaTeX-provided-package-options
                      '(("xcolor" "table")))
+   (add-to-list 'LaTeX-verbatim-environments-local "alltt")
    (TeX-run-style-hooks
     "latex2e"
     "article"
@@ -26,10 +27,17 @@
     "afie"
     "uphe"
     "kieg"
-    "aequ")
+    "aequ"
+    "aiza"
+    "ajoo"
+    "icoo")
    (LaTeX-add-labels
     "eq:bahpiubo"
-    "eq:bieveixu")
+    "eq:bieveixu"
+    "eq:mequaeth"
+    "eq:rotheeci"
+    "eq:ootahjei"
+    "eq:aedoophi")
    (LaTeX-add-counters
     "aufg"))
  :latex)

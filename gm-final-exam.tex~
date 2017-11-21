@@ -1,0 +1,90 @@
+% gm-final-exam.tex
+
+\documentclass[12pt]{article}
+% \usepackage{enumerate}
+% \usepackage{syllogism} 
+\usepackage{october}
+% \usepackage[table]{xcolor}
+\pagestyle{empty}
+\newcounter{frage}
+\setcounter{frage}{0}
+\newcommand{\frage}[0]{\refstepcounter{frage}\arabic{frage}}
+
+\begin{document}
+
+\textbf{Final Exam}
+
+2017-11-21 suggestion: use diagram riceknight491a.png where xy=450 ft,
+angle Ayx=32, Axy=129, Bxy=43, and Byx=113.
+
+Show all of your work. Correct answers without showing how to get them
+does not earn you points.
+
+\textbf{There are TWO pages and NINE questions.} The maximum number of
+points is 100.
+
+({\frage}) Solve the logarithmic equation. Do not use a calculator for your
+calculation. It's OK to use a calculator to check your answer. [10]
+\begin{equation}
+  \label{eq:vuomebic}
+  \log_{2}x-\log_{2}\frac{1}{4}=3
+\end{equation}
+
+({\frage}) Solve the trigonometric equation. [12]
+\begin{equation}
+  \label{eq:waibohng}
+  2-\cos{}\vartheta=2\sin^{2}\vartheta+1
+\end{equation}
+
+({\frage}) Solve the following system of equations by any method.[10]
+\begin{equation}
+  \label{eq:tiwiehai}
+  \begin{array}{rcccl}
+    x&+&\frac{1}{5}y&=&\frac{4}{3} \\
+    3x&-&2y&=&-9
+  \end{array}
+\end{equation}
+
+({\frage}) Solve the following triangle in the plane. Clearly indicate the
+three missing items and their solutions. [12]
+\begin{equation}
+  \label{eq:shiedizi}
+  a=234,b=461,c=307
+\end{equation}
+
+\newpage
+
+({\frage}) The time it takes to ride your bicycle from home to work is
+normally distributed with a mean of $28.4$ minutes and a standard
+deviation of $3.1$ minutes. What is the probability that the bike ride
+takes more than half an hour? [10]
+
+({\frage}) Solve the following spherical triangle. Clearly indicate the three
+missing items and their solution. Hint: $c$ is greater than
+$90^{\circ}$ (use the alternative solution when you take the inverse
+sine function of $\sin{}c$). [12]
+\begin{equation}
+  \label{eq:ooxusahf}
+  A=24^{\circ}53'39'',b=32^{\circ}5'34'',C=93^{\circ}40'45''
+\end{equation}
+
+({\frage}) Solve the exponential equation. Do not use a calculator for your
+calculation. It's OK to use a calculator to check your answer. [10]
+
+\begin{equation}
+  \label{eq:vaiphook}
+  3^{x-1}=e^{3x}  
+\end{equation}
+
+({\frage}) Solve the following right spherical triangle with a right angle at
+$A$. [12]
+\begin{equation}
+  \label{eq:eichaech}
+  b=56^{\circ}21'30'',B=59^{\circ}15'32''
+\end{equation}
+
+({\frage}) According to 2010 census data, the ratio of men to women among
+centenarians is $1:4$ (i.e.\ 20\% of centenarians are men). What is
+the probability that out of 50 centenarians 12 or more are male? [12]
+
+\end{document}
