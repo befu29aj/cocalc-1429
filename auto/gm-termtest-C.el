@@ -29,8 +29,7 @@
     "aequ")
    (LaTeX-add-labels
     "eq:bahpiubo"
-    "eq:leigieri"
-    "eq:yeiveroo")
+    "eq:bieveixu")
    (LaTeX-add-counters
     "aufg"))
  :latex)
