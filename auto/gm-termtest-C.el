@@ -30,7 +30,8 @@
     "aequ"
     "aiza"
     "ajoo"
-    "icoo")
+    "icoo"
+    "phae")
    (LaTeX-add-labels
     "eq:bahpiubo"
     "eq:dusheipa"
