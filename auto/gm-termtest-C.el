@@ -33,6 +33,8 @@
     "icoo")
    (LaTeX-add-labels
     "eq:bahpiubo"
+    "eq:dusheipa"
+    "eq:aithaish"
     "eq:bieveixu"
     "eq:mequaeth"
     "eq:rotheeci"
