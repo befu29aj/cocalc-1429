@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.23)  17 NOV 2017 18:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.23)  21 NOV 2017 00:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1124,47 +1124,72 @@ Package pdftex.def Info: ./acre.png used on input line 493.
 
  <./acre.png>] [26
 
-] <./frustum.pdf, id=251, 458.71375pt x 601.24625pt>
-File: ./frustum.pdf Graphic file (type pdf)
+] <./frustum.png, id=251, 804.00375pt x 912.40875pt>
+File: ./frustum.png Graphic file (type png)
 
-<use ./frustum.pdf>
-Package pdftex.def Info: ./frustum.pdf used on input line 522.
-(pdftex.def)             Requested size: 183.48224pt x 240.49423pt.
+<use ./frustum.png>
+Package pdftex.def Info: ./frustum.png used on input line 517.
+(pdftex.def)             Requested size: 176.88136pt x 200.73055pt.
+ [27
 
-Overfull \vbox (69.75185pt too high) detected at line 522
- []
-
-[27
-
- <./frustum.pdf>] [28
+ <./frustum.png>] [28
 
 ] [29
 
-] <./volume1.png, id=284, 264.99pt x 141.8901pt>
+] [30
+
+] [31
+
+]
+<./pyramid08.png, id=299, 290.08376pt x 281.05pt>
+File: ./pyramid08.png Graphic file (type png)
+ <use ./pyramid08.png>
+Package pdftex.def Info: ./pyramid08.png used on input line 613.
+(pdftex.def)             Requested size: 145.04152pt x 140.52464pt.
+
+[32
+
+ <./pyramid08.png>] [33
+
+] <./cavalieri.jpg, id=316, 60.225pt x 35.4123pt>
+File: ./cavalieri.jpg Graphic file (type jpg)
+
+<use ./cavalieri.jpg>
+Package pdftex.def Info: ./cavalieri.jpg used on input line 640.
+(pdftex.def)             Requested size: 120.44968pt x 70.82437pt.
+ [34
+
+ <./cavalieri.jpg>] [35
+
+] [36
+
+] [37
+
+]
+<./volume1.png, id=351, 264.99pt x 141.8901pt>
 File: ./volume1.png Graphic file (type png)
-
-<use ./volume1.png>
-Package pdftex.def Info: ./volume1.png used on input line 573.
+ <use ./volume1.png>
+Package pdftex.def Info: ./volume1.png used on input line 716.
 (pdftex.def)             Requested size: 264.98935pt x 141.88974pt.
- [30
+ [38
 
- <./volume1.png (PNG copy)>]
-<./volume2.png, id=291, 267.6399pt x 204.0423pt>
+ <./volume1.png (PNG copy)>] <./volume2.png, id=358, 267.6399pt x 204.0423pt>
 File: ./volume2.png Graphic file (type png)
- <use ./volume2.png>
-Package pdftex.def Info: ./volume2.png used on input line 580.
+
+<use ./volume2.png>
+Package pdftex.def Info: ./volume2.png used on input line 723.
 (pdftex.def)             Requested size: 267.63924pt x 204.04178pt.
- [31
+ [39
 
- <./volume2.png (PNG copy)>] <./volume3.png, id=299, 264.99pt x 141.8901pt>
+ <./volume2.png (PNG copy)>]
+<./volume3.png, id=365, 264.99pt x 141.8901pt>
 File: ./volume3.png Graphic file (type png)
-
-<use ./volume3.png>
-Package pdftex.def Info: ./volume3.png used on input line 587.
+ <use ./volume3.png>
+Package pdftex.def Info: ./volume3.png used on input line 730.
 (pdftex.def)             Requested size: 264.98935pt x 141.88974pt.
- [32
+ [40
 
- <./volume3.png (PNG copy)>] [33
+ <./volume3.png (PNG copy)>] [41
 
 ]
 \tf@nav=\write6
@@ -1176,11 +1201,11 @@ Package pdftex.def Info: ./volume3.png used on input line 587.
 \tf@snm=\write8
 \openout8 = `gm-14-vectors.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 594.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 594.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 737.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 737.
  (./gm-14-vectors.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 594.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 594.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 737.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 737.
 Package rerunfilecheck Info: File `gm-14-vectors.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1188,32 +1213,30 @@ Package rerunfilecheck Info: File `gm-14-vectors.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 594.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 737.
  ) 
 Here is how much of TeX's memory you used:
- 17365 strings out of 493029
- 332472 string characters out of 6136234
- 402864 words of memory out of 5000000
- 20361 multiletter control sequences out of 15000+600000
- 14346 words of font info for 53 fonts, out of 8000000 for 9000
+ 17457 strings out of 493029
+ 333881 string characters out of 6136234
+ 403237 words of memory out of 5000000
+ 20420 multiletter control sequences out of 15000+600000
+ 14178 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,16n,68p,393b,602s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mtt10.pfb>
-Output written on gm-14-vectors.pdf (33 pages, 3895918 bytes).
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy8.pfb>
+Output written on gm-14-vectors.pdf (41 pages, 3935951 bytes).
 PDF statistics:
- 371 PDF objects out of 1000 (max. 8388607)
- 278 compressed objects within 3 object streams
- 99 named destinations out of 1000 (max. 500000)
- 169 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 441 PDF objects out of 1000 (max. 8388607)
+ 338 compressed objects within 4 object streams
+ 130 named destinations out of 1000 (max. 500000)
+ 185 words of extra memory for PDF output out of 10000 (max. 10000000)
 
