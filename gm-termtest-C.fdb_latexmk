@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1511288244 "gm-termtest-C.tex" "gm-termtest-C.pdf" "gm-termtest-C" 1511288245
+["pdflatex"] 1511374122 "gm-termtest-C.tex" "gm-termtest-C.pdf" "gm-termtest-C" 1511374123
   "/etc/texmf/web2c/texmf.cnf" 1503313332 1464 a4af512f3aaf20a97ae1601d19d817c4 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -29,6 +29,7 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1248133631 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1248133631 32626 4f5c1b83753b1dd3a97d1b399a005b4b ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1248133631 34694 ad62b13721ee8eda1dcc8993c8bd7041 ""
   "/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii" 1337017135 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty" 1335995445 7612 c47308d923ec19888707b0f1792b326a ""
   "/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty" 1303254447 7324 11d14f318d865f420e692d4e6c9c18c3 ""
@@ -78,10 +79,10 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1503343927 31343 93828589fb0cea665e553ee5a17ad2d4 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1506161354 1863403 f3ff9a4253bcb5fb9a9baaf0c572cb01 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1506161382 3853855 dd36e9f5f71c93ae6ae957293c5815c4 ""
-  "gm-termtest-C.aux" 1511288245 256 1bcbc89b9112cc610eb2d3096d88a8ad ""
-  "gm-termtest-C.tex" 1511288219 5110 0ddd0db39a576729ce255f07dbf68f36 ""
+  "gm-termtest-C.aux" 1511374123 256 1bcbc89b9112cc610eb2d3096d88a8ad ""
+  "gm-termtest-C.tex" 1511374121 5308 32ae8e6851bfa96a700211241f69cfc4 ""
   "october.sty" 1510938740 2448 da00b392c73b77f12c18bf815a3b6fa9 ""
-  "riceknight491b.png" 1511287911 48163 784af2efae1b0b06a60e6ae6dee321ad ""
+  "riceknight494a.png" 1511287911 32762 a49a155b3fb65d6d49c73d54c7354663 ""
   (generated)
   "gm-termtest-C.aux"
   "gm-termtest-C.pdf"
