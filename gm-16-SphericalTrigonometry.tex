@@ -1,0 +1,411 @@
+% gm-16-SphericalTrigonometry.tex
+
+\documentclass[xcolor=dvipsnames]{beamer}
+
+\usepackage{tikz}
+\usepackage{cancel}
+\renewcommand{\CancelColor}{\color{red}}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{colortbl}
+\usepackage{color}
+\usepackage{alltt}
+\renewcommand*{\thefootnote}{\fnsymbol{footnote}}
+\definecolor{myblue}{rgb}{0.8,0.85,1}
+
+\mode<presentation>
+{
+  \usetheme{Warsaw}
+  \setbeamercovered{transparent}
+}
+% \usecolortheme[named=OliveGreen]{structure}
+\setbeamertemplate{navigation symbols}{} 
+\setbeamertemplate{blocks}[rounded][shadow=true] 
+
+% this is for overlaying math symbols, see https://tex.stackexchange.com/questions/12895/overlay-symbol-with-another
+\def\qeq{\mathrel{%
+    \mathchoice{\QEQ}{\QEQ}{\scriptsize\QEQ}{\tiny\QEQ}%
+}}
+\def\QEQ{{%
+    \setbox0\hbox{$\longrightarrow$}%
+    \rlap{\hbox to \wd0{\hss/\hss}}\box0
+  }}
+
+\newcounter{expls}
+\setcounter{expls}{0}
+\newcommand{\beispiel}[1]{\refstepcounter{expls}\textbf{Example \arabic{expls}: #1.}}
+
+\newcounter{exercise}
+\setcounter{exercise}{0}
+\newcommand{\ubung}[0]{\refstepcounter{exercise}\textbf{Exercise \arabic{exercise}: }}
+
+\newif\ifBCITCourse
+\BCITCoursetrue
+% \BCITCoursefalse
+\newif\ifWhichCourse
+\WhichCoursetrue
+\WhichCoursefalse
+\ifBCITCourse
+\ifWhichCourse
+\newcommand{\CourseName}{Technical Mathematics for Food Technology}
+\newcommand{\CourseNumber}{MATH 1441}
+\newcommand{\CourseInst}{BCIT}
+\else
+\newcommand{\CourseName}{Technical Mathematics for Geomatics}
+\newcommand{\CourseNumber}{MATH 1511}
+\newcommand{\CourseInst}{BCIT}
+\fi
+\else
+\newcommand{\CourseName}{Philosophy and Literature}
+\newcommand{\CourseNumber}{PHIL 375}
+\newcommand{\CourseInst}{UBC}
+\fi
+
+\title{Spherical Trigonometry}
+\subtitle{{\CourseNumber}, BCIT}
+
+\author{\CourseName}
+
+\date{November 29, 2017}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}
+  \frametitle{Captain America I}
+  \begin{quote}
+    Realizing that in our present national emergency trigonometry is
+    used in practically every phase of our war effort, the objective
+    of the authors in writing this book was to present a brief but
+    mathematically accurate course in plane and spherical trigonometry
+    with special emphasis on the computational or practical side of
+    the subject. In those chapters dealing with computational
+    trigonometry, thorough drill is first given through the use of
+    many examples.
+  \end{quote}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Captain America II}
+  \begin{quote}
+    This is followed at the end of each of these chapters by practical
+    applications introduced as problems, along with the necessary
+    explanations and definitions, to secure conciseness of
+    presentation. The applications deal with surveying, gun fire,
+    course and position of airplanes, and navigation. This arrangement
+    of theory and application in the book has permitted a sharp
+    presentation of the underlying ideas which is necessary for rapid
+    mastery of the subject. (Clifford Bell and Tracy Thomas,
+    \emph{Essentials of Plane and Spherical Trigonometry}, 1943, page
+    iii)
+  \end{quote}
+\end{frame}
+
+\begin{frame}
+  \frametitle{The Halifax Problem I}
+This is a problem from Raymond Brink, \emph{Spherical Trigonometry},
+1942, page 17.
+\begin{quote}
+  A ship leaves Halifax (position, $44.67^{\circ}N,63.58^{\circ}W$),
+  starting due east [{\ldots}]. Find its
+  position and direction after it has sailed 1000 nautical miles.
+\end{quote}
+\end{frame}
+
+\begin{frame}
+  \frametitle{The Halifax Problem II}
+  \begin{figure}[h]
+    \includegraphics[scale=.7]{./bcita-01.eps}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{The Halifax Problem III}
+  \begin{figure}[h]
+    \includegraphics[scale=.7]{./bcita-02.eps}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{The Halifax Problem IV}
+  \begin{figure}[h]
+    \includegraphics[scale=.4]{./wheel.jpg}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{The Halifax Problem V}
+  \begin{figure}[h]
+    \includegraphics[scale=.7]{./bcita-03.eps}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{The Halifax Problem IV}
+This is a problem from Raymond Brink, \emph{Spherical Trigonometry},
+1942, page 17.
+\begin{quote}
+  A ship leaves Halifax (position, $44.67^{\circ}N,63.58^{\circ}W$),
+  starting due east \emph{and continuing on the great circle}. Find its
+  position and direction after it has sailed 1000 nautical miles.
+\end{quote}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Great Circles}
+The intersection between a plane and a sphere is a circle. If the
+centre of the sphere is an element of the plane, then the intersection
+is a \alert{great circle}. A \alert{spherical angle} at point $P$ is
+an arc length on a great circle for which $P$ is the pole.
+\begin{block}{Triangle Sum}
+  The sum of the angles of a spherical triangle is less than six right
+  angles and greater than two right angles.
+\end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Napier's Pentagramma Mirificum}
+\begin{figure} 
+\centering 
+\begin{minipage}{0.45\textwidth} 
+\centering
+    \includegraphics[scale=.8]{./nap1.png}
+% \caption{first figure} 
+\end{minipage}\hfill 
+\begin{minipage}{0.45\textwidth} 
+\centering 
+    \includegraphics[scale=.8]{./nap2.png}
+% \caption{second figure} 
+\end{minipage} 
+\end{figure} 
+\end{frame}
+
+\begin{frame}
+  \frametitle{Napier's Rules}
+  \begin{itemize}
+  \item \emph{Rule I:} The sine of any circular part is equal to the
+    product of the tangents of the two parts adjacent to it.
+  \item \emph{Rule II:} The sine of any circular part is equal to the
+    product of the cosines of the two parts opposite to it.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{The Right-Angled Euler Triangle I}
+  \begin{figure}[h]
+    \includegraphics[scale=.7]{./bcita-04.eps}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{The Right-Angled Euler Triangle II}
+  \begin{figure}[h]
+    \includegraphics[scale=.7]{./bcita-05.eps}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Halifax Problem: Latitude}
+Use the relevant three slices of the Pentagramma Mirificum for the
+following formula:
+\begin{equation}
+  \label{eq:aeceiwae}
+\cos{}c=\cos{}a\cdot\cos{}b  
+\end{equation}
+$a$ is 1000 nautical miles. One nautical mile is one minute of arc, or
+$\frac{1}{60}^{\circ}$, on the Earth's surface. Therefore,
+$a=16.667^{\circ}$ and $b=45.33^{\circ}$. Using the inverse function
+of cosine on $\cos{}a\cdot\cos{}b$ and subtracting the result from
+$90^{\circ}$, the result for the latitude of $E$ is $42.337^{\circ}N$.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Halifax Problem: Longitude}
+Use the relevant three slices of the Pentagramma Mirificum for the
+following formula:
+\begin{equation}
+  \label{eq:theeyoom}
+\cos{}A=\cot{}c\cdot\tan{}b  
+\end{equation}
+Using the inverse function of cosine on $\cot{}c\cdot\tan{}b$ and
+subtracting the result from $63.58^{\circ}$, the result for the
+longitude of $E$ is $40.75^{\circ}W$.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Halifax Problem: Direction}
+Use the relevant three slices of the Pentagramma Mirificum for the
+following formula:
+\begin{equation}
+  \label{eq:cheichah}
+\cos{}B=\cot{}c\cdot\tan{}a  
+\end{equation}
+Using the inverse function of cosine on $\cot{}c\cdot\tan{}a$, the
+result for the direction at $E$ is $74.171^{\circ}$ east of south.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Exercises I}
+Remember this problem a while ago: 
+
+\begin{block}{Windsor to Grenoble}
+  Consider two towns, Windsor, Nova Scotia, at
+  ($45^{\circ}N,65^{\circ}W$) and Grenoble, France at
+  ($45^{\circ}N,5^{\circ}E$). If you follow a line of latitude, how
+  far are the two towns apart?
+\end{block}
+
+We can now calculate the distance along the great circle.
+
+\begin{figure}[h]
+\includegraphics[scale=.3]{./WindsorGrenoble2.eps}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Exercises I Solution}
+\begin{figure}[h]
+\includegraphics[scale=.3]{./WindsorGrenoble1.eps}
+\end{figure}
+
+Notice that $NWG$ is an isosceles triangle. Consequently, $NWM$ is a
+right triangle. Let $a=NM,b=MW,c=WN=45^{\circ}$. The angle
+$\angle{}WNM$ is $35^{\circ}$. Napier's miraculous pentagram gives us
+\begin{equation}
+  \label{eq:yooceeva}
+  \sin{}b=\sin{}35^{\circ}\cdot\sin{}45^{\circ}\mbox{ therefore }b=0.41761
+\end{equation}
+$b$ is in radians in equation (\ref{eq:yooceeva}). Multiply twice this
+number by the radius of the Earth (6378.1km), and the correct solution
+is approximately $5327.2$km, compared to approximately $5510.0$km
+along the circle of latitude.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Exercises II}
+% Clifford Bell, p136, ex. 1
+One of the angles formed by the intersection of two great circles is
+$37^{\circ}10'$. A point on one of the circles is $53^{\circ}27'$ from
+the intersection point of the circles. Find the shortest distance from
+this point to the other circle.
+\begin{figure}[h]
+\includegraphics[scale=.3]{./cb.png}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Exercises III}
+% Clifford Bell, p135
+  Solve the isosceles triangle $ABC$, where $a=c=79^{\circ}17'$ and
+  $A=C=59^{\circ}37'$.
+\begin{figure}[h]
+\includegraphics[scale=.25]{./gm-CliffordBell-p135-solution}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Oblique Triangles Law of Cosines}
+To solve triangles that do not have a right angle, use the cosine law
+for sides,
+\begin{equation}
+  \label{eq:epheepee}
+  \cos{}a=\cos{}b\cos{}c+\sin{}b\sin{}c\cos{}A
+\end{equation}
+and the corresponding cosine law for angles derived from the polar
+triangle,
+\begin{equation}
+  \label{eq:dijeeghe}
+  \cos{}A=\cos{}B\cos{}C+\sin{}B\sin{}C\cos{}a
+\end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Law of Cosines Example}
+Calculate the distance along the great circle between Vancouver
+($49^{\circ}15'$N, $123^{\circ}6'$W) and Palma de Mallorca
+($39^{\circ}34'$N, $2^{\circ}39'$E).
+\begin{figure}[h]
+\includegraphics[scale=.4]{./VancouverPalma1.eps}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Law of Cosines Example Solution}
+\begin{figure}[h]
+\includegraphics[scale=.4]{./VancouverPalma1.eps}
+\end{figure}
+Let $N$ be the angle $\angle{}VNP$. Let $a=VN,b=NP,c=VP$. According to
+the law of cosines,
+\begin{equation}
+  \label{eq:aechiedu}
+  \cos{}c=\cos{}a\cos{}b+\sin{}a\sin{}b{}cos{}N
+\end{equation}
+Consequently, $c=1.3811$ in radians, which translates to $8808.8$km.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Oblique Triangles Law of Sines}
+Sometimes, the law of sines is needed to calculate a missing side,
+\begin{equation}
+  \label{eq:aebaeyun}
+  \frac{\sin{}a}{\sin{}A}=\frac{\sin{}b}{\sin{}B}=\frac{\sin{}c}{\sin{}C}
+\end{equation}
+The law of sines, however, is a fickle friend. It will often give you
+the incorrect solution if you use the inverse sine function, which is
+ambiguous. It is usually safer to use Napier's Analogies, which also
+solve the problem that in plane trigonometry is solved by the
+angle-sum formula $\alpha+\beta+\gamma=180^{\circ}$.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Oblique Triangles Napier's Analogies}
+Here are Napier's Analogies for oblique triangles. There is nothing
+special about the labels $a,b,c$ and $A,B,C$. These analogies are true
+for any permutation of $a,b,c$ and $A,B,C$, as long as it is
+consistently applied. Note that $\sin\frac{1}{2}(a-b)$ means
+$\sin[\frac{1}{2}(a-b)]$, not $\sin[\frac{1}{2}]\cdot{}(a-b)$.
+\begin{equation}
+  \label{eq:uteseivu}
+  \begin{array}{l}
+    \tan\frac{1}{2}(A-B)=\cot\frac{C}{2}\frac{\sin\frac{1}{2}(a-b)}{\sin\frac{1}{2}(a+b)} \\
+    \tan\frac{1}{2}(A+B)=\cot\frac{C}{2}\frac{\cos\frac{1}{2}(a-b)}{\cos\frac{1}{2}(a+b)} \\
+    \tan\frac{c}{2}=\tan\left(\frac{1}{2}(a-b)\right)\frac{\sin\frac{1}{2}(A+B)}{\sin\frac{1}{2}(A-B)} \\
+    \tan\frac{c}{2}=\tan\left(\frac{1}{2}(a+b)\right)\frac{\cos\frac{1}{2}(A+B)}{\cos\frac{1}{2}(A-B)}
+  \end{array}
+\end{equation}
+Note that if you are given three sides/angles in a problem, it is not
+uncommon to have multiple solutions. Sometimes there are no solutions.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Things to Remember}
+  Note that there are two types of oblique triangles: the "ABC" type
+  and the "non-ABC" type. If the knowns are "ABC", "ABc", "AbC",
+  "abC", etc., then the triangle is of the ABC type. Use the law of
+  cosines first and then either the law of sines or Napier's
+  Analogies.
+
+  If the knowns are "Aac","ABb","aCc", etc., the triangle is of the
+  non-ABC type. Use the law of sines first and then Napier's analogies
+  (in plane trigonometry, you would use the law of sines and then the
+  angle-sum formula).
+
+  In all the oblique triangle formulas (law of cosines, law of sines,
+  Napier's Analogies), sides and angles are interchangable. The labels
+  "a", "b", and "c" are arbitrary, so they are also interchangable.
+  You must apply these changes consistently within the formula.
+
+Using the law of cosines, law of sines, and Napier's Analogies can
+saddle you with an incorrect solution. Always run all the sine laws
+and all the cosine laws to check your solution.
+\end{frame}
+
+\begin{frame}
+  \frametitle{End of Lesson}
+Next Lesson: No Such Thing. Enjoy Your Holidays.
+\end{frame}
+
+\end{document}

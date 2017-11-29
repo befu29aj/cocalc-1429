@@ -1,0 +1,83 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%BoundingBox: 151 241 461 551
+/Helvetica-Roman findfont 10 scalefont setfont
+306 396 translate
+1 -1 scale
+/r 150.00 def
+/point {
+  gsave
+  2.5 r div 0 360 arc closepath
+  gsave
+  setrgbcolor fill
+  grestore 
+  0 setgray 1 r div setlinewidth stroke
+  grestore
+} def
+/label {
+  gsave
+  translate
+  1 r div dup neg scale
+  0 0 moveto
+  rmoveto
+  setrgbcolor show
+  grestore
+} def
+/ca {
+  gsave
+  concat
+  /ae exch def /as exch def
+  /rad exch def
+  0 0 rad as ae arc setrgbcolor std setmatrix stroke
+  grestore
+} def
+/length 0.500 def
+/tailx 0.03 def
+/taily 0.025 def
+/arrow {
+  gsave
+  concat
+  rotate
+  /ctm matrix currentmatrix def
+  0 0 moveto
+  length 0 lineto
+  std setmatrix setrgbcolor stroke
+  ctm setmatrix length 0 translate
+  tailx neg taily moveto
+  0 -2 taily mul rlineto
+  tailx 0.5 mul 0 lineto
+  closepath
+  std setmatrix gsave fill grestore 0.2 setgray 0.8 setlinewidth stroke
+  grestore
+} def
+/std matrix currentmatrix def
+r dup scale
+gsave
+0 0 1 0 360 arc closepath
+std setmatrix 0 setgray stroke grestore
+(N) 1.000 0.502 0.502 5 5 0.13 -0.79 label
+(V) 0.000 1.000 0.000 5 5 -0.38 -0.25 label
+(P) 0.000 1.000 0.000 5 5 0.64 0.03 label
+1.01 setlinewidth
+gsave
+0.302 0.302 0.800 1 0 180 [ 0.521 -0.854 -0.387 -0.236 0 0 ] ca
+0.651 0.651 0.898 1 180 360 [ 0.521 -0.854 -0.387 -0.236 0 0 ] ca
+grestore
+1.01 setlinewidth
+gsave
+0.302 0.302 0.800 1 0 180 [ -0.410 -0.912 0.542 -0.244 0 0 ] ca
+0.651 0.651 0.898 1 180 360 [ -0.410 -0.912 0.542 -0.244 0 0 ] ca
+grestore
+1.01 setlinewidth
+gsave
+0.302 0.302 0.800 1 0 180 [ -0.970 -0.243 0.040 -0.158 0 0 ] ca
+0.651 0.651 0.898 1 180 360 [ -0.970 -0.243 0.040 -0.158 0 0 ] ca
+grestore
+1.01 setlinewidth
+1.000 0.502 0.502 0.128 -0.792 point
+1.01 setlinewidth
+0.000 1.000 0.000 -0.380 -0.247 point
+1.01 setlinewidth
+0.000 1.000 0.000 0.637 0.028 point
+grestore
+showpage
+
