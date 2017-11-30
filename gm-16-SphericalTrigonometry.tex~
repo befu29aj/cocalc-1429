@@ -381,31 +381,26 @@ uncommon to have multiple solutions. Sometimes there are no solutions.
 \end{frame}
 
 \begin{frame}
-  \frametitle{ABC and Non-ABC}
-  There are two types of oblique triangles.
-  \begin{description}
-  \item[ABC Type] If the knowns are ``ABC'', ``ABc'', ``AbC'', ``abC'', etc.,
-    then the triangle is of the ABC type. Use the law of cosines first
-    and then either the law of sines or Napier's Analogies.
-  \item[Non-ABC Type] If the knowns are ``Aac'',``ABb'',``aCc'', etc., the
-    triangle is of the non-ABC type. Use the law of sines first and
-    then Napier's analogies (in plane trigonometry, you would use the
-    law of sines and then the angle-sum formula).
-  \end{description}
-\end{frame}
-
-\begin{frame}
   \frametitle{Things to Remember}
-  \begin{itemize}
-  \item In all the oblique triangle formulas (law of cosines, law of
-    sines, Napier's Analogies), sides and angles are interchangable.
-    The labels ``a'', ``b'', and ``c'' are arbitrary, so they are also
-    interchangable. You must apply these changes consistently within
-    the formula.
-  \item Using the law of cosines, law of sines, and Napier's Analogies
-    can saddle you with an incorrect solution. Always run all the sine
-    laws and all the cosine laws to check your solution.
-  \end{itemize}
+  Note that there are two types of oblique triangles: the "ABC" type
+  and the "non-ABC" type. If the knowns are "ABC", "ABc", "AbC",
+  "abC", etc., then the triangle is of the ABC type. Use the law of
+  cosines first and then either the law of sines or Napier's
+  Analogies.
+
+  If the knowns are "Aac","ABb","aCc", etc., the triangle is of the
+  non-ABC type. Use the law of sines first and then Napier's analogies
+  (in plane trigonometry, you would use the law of sines and then the
+  angle-sum formula).
+
+  In all the oblique triangle formulas (law of cosines, law of sines,
+  Napier's Analogies), sides and angles are interchangable. The labels
+  "a", "b", and "c" are arbitrary, so they are also interchangable.
+  You must apply these changes consistently within the formula.
+
+Using the law of cosines, law of sines, and Napier's Analogies can
+saddle you with an incorrect solution. Always run all the sine laws
+and all the cosine laws to check your solution.
 \end{frame}
 
 \begin{frame}
