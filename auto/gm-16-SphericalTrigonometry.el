@@ -30,8 +30,8 @@
     "eq:epheepee"
     "eq:dijeeghe"
     "eq:aechiedu"
-    "eq:aebaeyun"
-    "eq:uteseivu")
+    "eq:uteseivu"
+    "eq:aebaeyun")
    (LaTeX-add-counters
     "expls"
     "exercise"))
