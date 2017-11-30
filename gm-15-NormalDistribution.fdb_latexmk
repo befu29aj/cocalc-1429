@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1511980236 "gm-15-NormalDistribution.tex" "gm-15-NormalDistribution.pdf" "gm-15-NormalDistribution" 1511980239
+["pdflatex"] 1512081248 "gm-15-NormalDistribution.tex" "gm-15-NormalDistribution.pdf" "gm-15-NormalDistribution" 1512081249
   "/etc/texmf/web2c/texmf.cnf" 1503313332 1464 a4af512f3aaf20a97ae1601d19d817c4 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -209,10 +209,10 @@
   "binnorm1_ed.jpg" 1511218321 37022 4ca55cf46f2dd2d391a12120ee244504 ""
   "binomial1.png" 1511217100 5850 d67439d68d5e43ac713cdab5d52788d5 ""
   "contcorr_ed1.jpg" 1511218321 173145 4b7e0f03bb522e91a21154d494ed0ee6 ""
-  "gm-15-NormalDistribution.aux" 1511980239 7244 606353aad8b8442de4c8a26eeb0bf76b ""
-  "gm-15-NormalDistribution.nav" 1511980239 3287 b8c268c9d45250ebefbedd71cd50e2d7 ""
-  "gm-15-NormalDistribution.out" 1511980237 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "gm-15-NormalDistribution.tex" 1511218219 17637 4ce30e9955b2272842931c43e46d67e3 ""
+  "gm-15-NormalDistribution.aux" 1512081249 7244 606353aad8b8442de4c8a26eeb0bf76b ""
+  "gm-15-NormalDistribution.nav" 1512081249 3287 b8c268c9d45250ebefbedd71cd50e2d7 ""
+  "gm-15-NormalDistribution.out" 1512081248 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "gm-15-NormalDistribution.tex" 1512081217 17637 590ba4fb5724e063a1144a2c832ae624 ""
   "qfour.png" 1511217100 2553 a8f8e1d564373b2627b432104462ff64 ""
   "triola1.png" 1511217100 858412 c5031b2fcac8376ce27bbedc9b7d3bc0 ""
   "triola2.png" 1511217100 726737 fa16f0ddd9b4399156443dd780949a8d ""
@@ -221,10 +221,10 @@
   "triola5.png" 1511217100 565331 6e68888e48738c463744fe30a0e46d61 ""
   "triola6.png" 1511217100 570713 8d72f4a582f4089931f3c74fb51b938e ""
   (generated)
+  "gm-15-NormalDistribution.pdf"
+  "gm-15-NormalDistribution.aux"
   "gm-15-NormalDistribution.nav"
   "gm-15-NormalDistribution.out"
-  "gm-15-NormalDistribution.aux"
-  "gm-15-NormalDistribution.pdf"
   "gm-15-NormalDistribution.toc"
   "gm-15-NormalDistribution.log"
   "gm-15-NormalDistribution.snm"
