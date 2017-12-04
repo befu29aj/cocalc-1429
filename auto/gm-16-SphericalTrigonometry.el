@@ -36,6 +36,8 @@
     "eq:theeyoom"
     "eq:cheichah"
     "eq:yooceeva"
+    "eq:saavooba"
+    "eq:oongiemi"
     "eq:epheepee"
     "eq:dijeeghe"
     "eq:aechiedu"
