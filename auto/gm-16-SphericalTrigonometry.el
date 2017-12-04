@@ -48,12 +48,16 @@
     "eq:enaigeos"
     "eq:oosaelai"
     "eq:reethoht"
+    "eq:evieguso"
     "eq:aiwiphaj"
+    "eq:ideichix"
+    "eq:eeluyeeh"
     "eq:aiyaawoo"
     "eq:cahghied"
     "eq:thaifahb"
     "eq:giezeoli"
-    "eq:vaibootu")
+    "eq:vaibootu"
+    "eq:ohjeegho")
    (LaTeX-add-counters
     "expls"
     "exercise")
