@@ -57,7 +57,13 @@
     "eq:thaifahb"
     "eq:giezeoli"
     "eq:vaibootu"
-    "eq:ohjeegho")
+    "eq:ohjeegho"
+    "eq:ciigahze"
+    "eq:oozuufee"
+    "eq:diepiemi"
+    "eq:iexeenga"
+    "eq:oosheige"
+    "eq:lahbeiro")
    (LaTeX-add-counters
     "expls"
     "exercise")
