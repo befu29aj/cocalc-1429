@@ -42,7 +42,18 @@
     "eq:dijeeghe"
     "eq:aechiedu"
     "eq:uteseivu"
-    "eq:aebaeyun")
+    "eq:aebaeyun"
+    "eq:dasohkoi"
+    "eq:eegaeboh"
+    "eq:enaigeos"
+    "eq:oosaelai"
+    "eq:reethoht"
+    "eq:aiwiphaj"
+    "eq:aiyaawoo"
+    "eq:cahghied"
+    "eq:thaifahb"
+    "eq:giezeoli"
+    "eq:vaibootu")
    (LaTeX-add-counters
     "expls"
     "exercise")
