@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1512428643 "gm-16-SphericalTrigonometry.tex" "gm-16-SphericalTrigonometry.pdf" "gm-16-SphericalTrigonometry" 1512428646
+["pdflatex"] 1512428832 "gm-16-SphericalTrigonometry.tex" "gm-16-SphericalTrigonometry.pdf" "gm-16-SphericalTrigonometry" 1512428835
   "/etc/texmf/web2c/texmf.cnf" 1503313332 1464 a4af512f3aaf20a97ae1601d19d817c4 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -214,9 +214,9 @@
   "bcita-04.eps" 1511979654 1723 c579deec39d1070e52f62cda743c83c2 ""
   "bcita-05.eps" 1511979654 1547 797db21c809e2a35ba231225171d8ddd ""
   "cb.png" 1511979654 118784 1d45599d6458e415befa18883ac6f218 ""
-  "gm-16-SphericalTrigonometry.aux" 1512428646 11009 e4c0c19c6107b9917b5e8322197501ef ""
-  "gm-16-SphericalTrigonometry.nav" 1512428646 5147 7c5df9c44fc79da35da7d289552ddc84 ""
-  "gm-16-SphericalTrigonometry.out" 1512428644 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "gm-16-SphericalTrigonometry.aux" 1512428835 11009 e4c0c19c6107b9917b5e8322197501ef ""
+  "gm-16-SphericalTrigonometry.nav" 1512428835 5147 7c5df9c44fc79da35da7d289552ddc84 ""
+  "gm-16-SphericalTrigonometry.out" 1512428833 0 d41d8cd98f00b204e9800998ecf8427e ""
   "gm-16-SphericalTrigonometry.tex" 1512428636 22824 8719a15292eb28aeb1ee18260ca90e31 ""
   "gm-CliffordBell-p135-solution.png" 1511979654 305727 b8a1efa7643ca2ccc908f688495949c1 ""
   "nap1.png" 1511979654 6687 f49f9a7e3c056e46c5d766ea64e8ab32 ""
@@ -225,10 +225,10 @@
   "rightamb1.png" 1512415315 52906 856056ddef660aa74ff0abc12d313fd2 ""
   "wheel.jpg" 1511979654 58666 ad0a73bed0d3b21f787592fa2632a30b ""
   (generated)
-  "gm-16-SphericalTrigonometry.aux"
-  "gm-16-SphericalTrigonometry.log"
-  "gm-16-SphericalTrigonometry.nav"
-  "gm-16-SphericalTrigonometry.toc"
-  "gm-16-SphericalTrigonometry.pdf"
-  "gm-16-SphericalTrigonometry.out"
   "gm-16-SphericalTrigonometry.snm"
+  "gm-16-SphericalTrigonometry.toc"
+  "gm-16-SphericalTrigonometry.nav"
+  "gm-16-SphericalTrigonometry.log"
+  "gm-16-SphericalTrigonometry.out"
+  "gm-16-SphericalTrigonometry.pdf"
+  "gm-16-SphericalTrigonometry.aux"
