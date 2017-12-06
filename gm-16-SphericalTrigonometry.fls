@@ -449,6 +449,9 @@ INPUT ./VancouverPalma1-eps-converted-to.pdf
 INPUT ./VancouverPalma1.eps
 INPUT ./VancouverPalma1-eps-converted-to.pdf
 INPUT ./VancouverPalma1-eps-converted-to.pdf
+INPUT ./sphericalTrig.png
+INPUT ./sphericalTrig.png
+INPUT ./sphericalTrig.png
 OUTPUT gm-16-SphericalTrigonometry.nav
 OUTPUT gm-16-SphericalTrigonometry.toc
 OUTPUT gm-16-SphericalTrigonometry.snm
