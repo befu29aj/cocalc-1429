@@ -350,6 +350,9 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi8.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi8.tfm
+INPUT ./sidesRangles.png
+INPUT ./sidesRangles.png
+INPUT ./sidesRangles.png
 INPUT ./bcita-01.eps
 INPUT ./bcita-01.eps
 INPUT ./bcita-01.eps
@@ -452,16 +455,12 @@ INPUT ./VancouverPalma1-eps-converted-to.pdf
 INPUT ./VancouverPalma1.eps
 INPUT ./VancouverPalma1-eps-converted-to.pdf
 INPUT ./VancouverPalma1-eps-converted-to.pdf
-INPUT ./sphericalTrig.png
-INPUT ./sphericalTrig.png
-INPUT ./sphericalTrig.png
 OUTPUT gm-16-SphericalTrigonometry.nav
 OUTPUT gm-16-SphericalTrigonometry.toc
 OUTPUT gm-16-SphericalTrigonometry.snm
 INPUT gm-16-SphericalTrigonometry.aux
 INPUT ./gm-16-SphericalTrigonometry.out
 INPUT ./gm-16-SphericalTrigonometry.out
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb
