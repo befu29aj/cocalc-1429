@@ -466,6 +466,9 @@ coast of Peru is the latitude for Lima.
   called the \alert{polar triangle} of $D$. The polar triangle of $D'$
   is $D$ (in other words, $D''=D$). If $A,B,C$ are the angles of $D$
   and $A',B',C'$ are the angles of $D'$, then
+
+  \bigskip
+
   \begin{tabular}{|rclcrcl|}\hline
     &&&\hspace{.5in}&&& \\
     $a+A'$&=&$180^{\circ}$&&$A+a'$&=&$180^{\circ}$ \\
@@ -479,17 +482,16 @@ coast of Peru is the latitude for Lima.
 
 \begin{frame}
   \frametitle{Oblique Triangles Law of Cosines}
-To solve triangles that do not have a right angle, use the cosine law
-for sides,
+  Here is the cosine law for spherical triangles.
 \begin{equation}
   \label{eq:epheepee}
   \cos{}a=\cos{}b\cos{}c+\sin{}b\sin{}c\cos{}A
 \end{equation}
-and the corresponding cosine law for angles derived from the polar
-triangle,
+The corresponding cosine law for angles derived from the polar
+triangle is
 \begin{equation}
   \label{eq:dijeeghe}
-  \cos{}A=\cos{}B\cos{}C+\sin{}B\sin{}C\cos{}a
+  \cos{}A=-\cos{}B\cos{}C+\sin{}B\sin{}C\cos{}a
 \end{equation}
 \end{frame}
 
@@ -527,26 +529,24 @@ $\sin[\frac{1}{2}(a-b)]$, not $\sin[\frac{1}{2}]\cdot{}(a-b)$.
 \begin{equation}
   \label{eq:uteseivu}
   \begin{array}{l}
-    \tan\frac{1}{2}(A-B)=\cot\frac{C}{2}\frac{\sin\frac{1}{2}(a-b)}{\sin\frac{1}{2}(a+b)} \\
-    \tan\frac{1}{2}(A+B)=\cot\frac{C}{2}\frac{\cos\frac{1}{2}(a-b)}{\cos\frac{1}{2}(a+b)} \\
-    \tan\frac{c}{2}=\tan\left(\frac{1}{2}(a-b)\right)\frac{\sin\frac{1}{2}(A+B)}{\sin\frac{1}{2}(A-B)} \\
-    \tan\frac{c}{2}=\tan\left(\frac{1}{2}(a+b)\right)\frac{\cos\frac{1}{2}(A+B)}{\cos\frac{1}{2}(A-B)}
+    \frac{\tan\frac{c}{2}}{\tan\left(\frac{1}{2}(a-b)\right)}=\frac{\sin\frac{1}{2}(A+B)}{\sin\frac{1}{2}(A-B)} \\
+    \frac{\tan\frac{c}{2}}{\tan\left(\frac{1}{2}(a+b)\right)}=\frac{\cos\frac{1}{2}(A+B)}{\cos\frac{1}{2}(A-B)}
   \end{array}
 \end{equation}
+Napier's Analogies are helpful in roughly the same way the angle-sum
+formula $\alpha+\beta+\gamma=180^{\circ}$ is helpful in plane
+trigonometry.
 \end{frame}
 
 \begin{frame}
   \frametitle{Oblique Triangles Law of Sines}
-Sometimes, the law of sines is needed to calculate a missing side,
+  Here is the sine law for spherical triangles.
 \begin{equation}
   \label{eq:aebaeyun}
   \frac{\sin{}a}{\sin{}A}=\frac{\sin{}b}{\sin{}B}=\frac{\sin{}c}{\sin{}C}
 \end{equation}
-The law of sines, however, is a fickle friend. The calculator will
-often give you the incorrect solution if you use the inverse sine
-function, which is ambiguous. It is usually safer to use Napier's
-Analogies, which also solve the problem that in plane trigonometry is
-solved by the angle-sum formula $\alpha+\beta+\gamma=180^{\circ}$.
+The sine law usually gives you two solutions. Use OSTL III or the
+cosine law to reject one of the two solutions.
 \end{frame}
 
 \begin{frame}
@@ -563,19 +563,18 @@ solved by the angle-sum formula $\alpha+\beta+\gamma=180^{\circ}$.
   \end{description}
 \end{frame}
 
-\begin{frame}
-  \frametitle{Things to Remember}
-  \begin{itemize}
-  \item In all the oblique triangle formulas (law of cosines, law of
-    sines, Napier's Analogies), sides and angles are interchangable.
-    The labels ``a'', ``b'', and ``c'' are arbitrary, so they are also
-    interchangable. You must apply these changes consistently within
-    the formula.
-  \item Using the law of cosines, law of sines, and Napier's Analogies
-    can saddle you with an incorrect solution. Always run all the sine
-    laws and all the cosine laws to check your solution.
-  \end{itemize}
-\end{frame}
+% \begin{frame}
+%   \frametitle{Things to Remember}
+%   \begin{itemize}
+%   \item In all the oblique triangle formulas (law of cosines, law of
+%     sines, Napier's Analogies), the labels ``a'', ``b'', and ``c'' are
+%     arbitrary, so they are also interchangable. You must apply these
+%     changes consistently within the formula.
+%   \item Using the law of cosines, law of sines, and Napier's Analogies
+%     can saddle you with an incorrect solution. Always run all the sine
+%     laws and all the cosine laws to check your solution.
+%   \end{itemize}
+% \end{frame}
 
 \begin{frame}
   \frametitle{Spherical Trigonometry Decision Tree}
