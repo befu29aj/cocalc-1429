@@ -461,6 +461,7 @@ OUTPUT gm-16-SphericalTrigonometry.snm
 INPUT gm-16-SphericalTrigonometry.aux
 INPUT ./gm-16-SphericalTrigonometry.out
 INPUT ./gm-16-SphericalTrigonometry.out
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb

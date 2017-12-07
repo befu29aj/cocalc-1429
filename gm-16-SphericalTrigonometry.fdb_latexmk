@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1512607330 "gm-16-SphericalTrigonometry.tex" "gm-16-SphericalTrigonometry.pdf" "gm-16-SphericalTrigonometry" 1512607333
+["pdflatex"] 1512607928 "gm-16-SphericalTrigonometry.tex" "gm-16-SphericalTrigonometry.pdf" "gm-16-SphericalTrigonometry" 1512607931
   "/etc/texmf/web2c/texmf.cnf" 1503313332 1464 a4af512f3aaf20a97ae1601d19d817c4 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -23,6 +23,7 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1136768653 1120 8b7d695260f3cff42e636090a8002094 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi10.tfm" 1336178347 1696 aaa5bbd1f47f001247d42218ce371101 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi8.tfm" 1336178347 1676 fb6c6a335484692abff897d6e8965829 ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1248133631 30251 6afa5cb1d0204815a708a080681d4674 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb" 1248133631 24457 5cbb7bdf209d5d1ce9892a9b80a307cc ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb" 1248133631 24393 3b7eb51a67a0a62aec5849271bdb9c2e ""
@@ -214,10 +215,10 @@
   "bcita-04.eps" 1511979654 1723 c579deec39d1070e52f62cda743c83c2 ""
   "bcita-05.eps" 1511979654 1547 797db21c809e2a35ba231225171d8ddd ""
   "cb.png" 1511979654 118784 1d45599d6458e415befa18883ac6f218 ""
-  "gm-16-SphericalTrigonometry.aux" 1512607333 11879 cf3b4477471a9116da25b6b2d44adab1 ""
-  "gm-16-SphericalTrigonometry.nav" 1512607333 5705 0233ec9f75c7fb690770e0b605f7a652 ""
-  "gm-16-SphericalTrigonometry.out" 1512607330 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "gm-16-SphericalTrigonometry.tex" 1512607324 26155 921b5011c1d349d1245f78fc81cea12a ""
+  "gm-16-SphericalTrigonometry.aux" 1512607931 11977 f613abddaab94d9267b938a55f770d32 ""
+  "gm-16-SphericalTrigonometry.nav" 1512607931 5705 0233ec9f75c7fb690770e0b605f7a652 ""
+  "gm-16-SphericalTrigonometry.out" 1512607929 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "gm-16-SphericalTrigonometry.tex" 1512607922 26173 df72ba8abbf3cf0e2f5d1fb69b7c0940 ""
   "gm-CliffordBell-p135-solution.png" 1511979654 305727 b8a1efa7643ca2ccc908f688495949c1 ""
   "nap1.png" 1511979654 6687 f49f9a7e3c056e46c5d766ea64e8ab32 ""
   "nap2.png" 1511979654 4476 95a553a957906b42169c71e98cef59c7 ""
@@ -228,8 +229,8 @@
   (generated)
   "gm-16-SphericalTrigonometry.pdf"
   "gm-16-SphericalTrigonometry.toc"
-  "gm-16-SphericalTrigonometry.nav"
   "gm-16-SphericalTrigonometry.aux"
-  "gm-16-SphericalTrigonometry.snm"
-  "gm-16-SphericalTrigonometry.out"
   "gm-16-SphericalTrigonometry.log"
+  "gm-16-SphericalTrigonometry.out"
+  "gm-16-SphericalTrigonometry.snm"
+  "gm-16-SphericalTrigonometry.nav"
