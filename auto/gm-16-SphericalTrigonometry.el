@@ -43,6 +43,7 @@
     "eq:dijeeghe"
     "eq:aechiedu"
     "eq:uteseivu"
+    "eq:yooneija"
     "eq:aebaeyun"
     "eq:dasohkoi"
     "eq:eegaeboh"
