@@ -14,7 +14,6 @@
     "eq:vuomebic"
     "eq:waibohng"
     "eq:tiwiehai"
-    "eq:ooxusahf"
     "eq:vaiphook"
     "eq:eichaech")
    (LaTeX-add-counters
