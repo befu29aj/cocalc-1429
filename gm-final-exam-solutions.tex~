@@ -27,11 +27,22 @@ calculation. It's OK to use a calculator to check your answer. [9]
   \log_{2}x-\log_{2}\frac{1}{4}=3
 \end{equation}
 
+The solution set is $S=\{2\}$.
+
 ({\frage}) Solve the trigonometric equation in $\{x\in\mathbb{R}|0^{\circ}\leq{}x<360^{\circ}\}$. [12]
 \begin{equation}
   \label{eq:waibohng}
   5\cos^{2}x=4\sin{}x+4
 \end{equation}
+
+\begin{figure}[h]
+    \includegraphics[scale=.5]{./sol1.png}
+\end{figure}
+\begin{figure}[h]
+    \includegraphics[scale=.5]{./sol2.png}
+  \end{figure}
+
+$0.20136=11.537^{\circ}$
 
 ({\frage}) Solve the following system of equations by any method. [9]
 \begin{equation}
