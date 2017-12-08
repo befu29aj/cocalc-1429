@@ -14,7 +14,6 @@
     "eq:vuomebic"
     "eq:waibohng"
     "eq:tiwiehai"
-    "eq:shiedizi"
     "eq:ooxusahf"
     "eq:vaiphook"
     "eq:eichaech")
