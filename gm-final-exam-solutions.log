@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.23)  9 DEC 2017 05:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.23)  9 DEC 2017 06:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -326,7 +326,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Here is how much of TeX's memory you used:
  4675 strings out of 493029
  65325 string characters out of 6136234
- 130496 words of memory out of 5000000
+ 129496 words of memory out of 5000000
  8149 multiletter control sequences out of 15000+600000
  8592 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -341,7 +341,7 @@ ic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/m
 sbm10.pfb>
-Output written on gm-final-exam-solutions.pdf (3 pages, 143854 bytes).
+Output written on gm-final-exam-solutions.pdf (3 pages, 143897 bytes).
 PDF statistics:
  53 PDF objects out of 1000 (max. 8388607)
  35 compressed objects within 1 object stream

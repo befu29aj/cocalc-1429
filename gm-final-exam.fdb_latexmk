@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1512799058 "gm-final-exam.tex" "gm-final-exam.pdf" "gm-final-exam" 1512799058
+["pdflatex"] 1512799552 "gm-final-exam.tex" "gm-final-exam.pdf" "gm-final-exam" 1512799553
   "/etc/texmf/web2c/texmf.cnf" 1503313332 1464 a4af512f3aaf20a97ae1601d19d817c4 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -71,8 +71,8 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1503343927 31343 93828589fb0cea665e553ee5a17ad2d4 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1506161354 1863403 f3ff9a4253bcb5fb9a9baaf0c572cb01 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1506161382 3853855 dd36e9f5f71c93ae6ae957293c5815c4 ""
-  "gm-final-exam.aux" 1512799058 163 8d391d85e78f55abb3381c5e31bf17de ""
-  "gm-final-exam.tex" 1512799032 3440 b6285a8014bfe09f5ef277092f51a90a ""
+  "gm-final-exam.aux" 1512799553 163 32c1fe0800332c1271f1c0752d3ebe54 ""
+  "gm-final-exam.tex" 1512799528 3470 a7e0ec3389546f1cd6606d13f31896b4 ""
   "october.sty" 1510938740 2448 da00b392c73b77f12c18bf815a3b6fa9 ""
   "riceknight491a.png" 1512754006 62996 dd896de633cc4b8d97699a627ccd713d ""
   (generated)
