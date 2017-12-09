@@ -18,6 +18,5 @@
     "eq:raochien"
     "eq:eichaech")
    (LaTeX-add-counters
-    "frage"))
- :latex)
+    "frage")))
 
